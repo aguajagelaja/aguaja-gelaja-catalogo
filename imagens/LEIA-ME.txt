@@ -1,0 +1,1 @@
+Coloque aqui as logos oficiais: logo-aguaja.png e logo-gelaja.png. Fotos reais dos produtos também podem ser guardadas nesta pasta e depois ligadas ao catálogo.
