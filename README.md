@@ -44,3 +44,8 @@ O catálogo inclui água e gelo, polpas, pães de queijo e congelados, xaropes, 
 
 
 Atualização recente: a embalagem de Água mineral Cristal Select em copos de 200 ml sem gás contém 48 unidades por R$ 41,50. Xaropes de frutas tradicionais e sem açúcar custam R$ 36,50 por garrafa de 500 ml. Caixas de isopor, caixas para alimentos e caixas térmicas estão cadastradas com preços e cores informados; aluguel da caixa térmica de 360 L sob consulta.
+
+
+### Atualização desta versão
+
+Incluída a categoria **Frutas congeladas**: Acerola (R$ 14,50), Abacaxi (R$ 25,00), Amora (R$ 30,00), Mix de Frutas Vermelhas (R$ 41,50), Mirtilo (R$ 45,00), Morango (R$ 24,00) e Maracujá (R$ 36,00).

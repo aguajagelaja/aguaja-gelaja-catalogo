@@ -2092,5 +2092,68 @@
     "unit": "pote",
     "icon": "🍧",
     "desc": "Açaí tradicional Master Fruto em pote de 5 litros."
+  },
+  {
+    "id": "fruta-congelada-acerola",
+    "name": "Acerola",
+    "category": "Frutas congeladas",
+    "price": 14.5,
+    "unit": "pacote",
+    "icon": "🍒",
+    "desc": "Acerola congelada."
+  },
+  {
+    "id": "fruta-congelada-abacaxi",
+    "name": "Abacaxi",
+    "category": "Frutas congeladas",
+    "price": 25.0,
+    "unit": "pacote",
+    "icon": "🍍",
+    "desc": "Abacaxi congelada."
+  },
+  {
+    "id": "fruta-congelada-amora",
+    "name": "Amora",
+    "category": "Frutas congeladas",
+    "price": 30.0,
+    "unit": "pacote",
+    "icon": "🫐",
+    "desc": "Amora congelada."
+  },
+  {
+    "id": "fruta-congelada-mix-frutas-vermelhas",
+    "name": "Mix de Frutas Vermelhas",
+    "category": "Frutas congeladas",
+    "price": 41.5,
+    "unit": "pacote",
+    "icon": "🍓",
+    "desc": "Mix de Frutas Vermelhas congelada."
+  },
+  {
+    "id": "fruta-congelada-mirtilo",
+    "name": "Mirtilo",
+    "category": "Frutas congeladas",
+    "price": 45.0,
+    "unit": "pacote",
+    "icon": "🫐",
+    "desc": "Mirtilo congelada."
+  },
+  {
+    "id": "fruta-congelada-morango",
+    "name": "Morango",
+    "category": "Frutas congeladas",
+    "price": 24.0,
+    "unit": "pacote",
+    "icon": "🍓",
+    "desc": "Morango congelada."
+  },
+  {
+    "id": "fruta-congelada-maracuja",
+    "name": "Maracujá",
+    "category": "Frutas congeladas",
+    "price": 36.0,
+    "unit": "pacote",
+    "icon": "🥭",
+    "desc": "Maracujá congelada."
   }
 ]
