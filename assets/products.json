@@ -347,7 +347,7 @@
     "category": "Polpas de frutas",
     "price": 2.7,
     "unit": "Unidade de 100 g",
-    "icon": "🍓",
+    "image": "imagens/polpa-abacaxi-unidade.jpg",
     "desc": "Polpa de abacaxi, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Abacaxi"
   },
