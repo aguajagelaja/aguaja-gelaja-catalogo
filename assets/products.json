@@ -414,7 +414,7 @@
     "icon": "🍓",
     "desc": "Polpa de acerola com laranja, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Acerola com Laranja",
-    "image": "imagens/polpa-acerola-unidade.jpg"
+    "image": "imagens/polpa-acerola-laranja-unidade.jpg"
   },
   {
     "id": "polpa-pack-4",
@@ -425,7 +425,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de acerola com laranja. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Acerola com Laranja",
-    "image": "imagens/polpa-acerola-pacote.jpg"
+    "image": "imagens/polpa-acerola-com-laranja-pacote.jpg"
   },
   {
     "id": "polpa-unit-5",
