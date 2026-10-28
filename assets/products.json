@@ -371,7 +371,7 @@
     "icon": "imagens/polpa-abacaxi-com-hortela-unidade.jpg",
     "desc": "Polpa de abacaxi com hortelã, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Abacaxi com Hortelã",
-    "image": "imagens/polpa-abacaxi-unidade.jpg"
+    "image": "imagens/polpa-abacaxi-com-hortela-unidade.jpg"
   },
   {
     "id": "polpa-pack-2",
@@ -379,7 +379,7 @@
     "category": "Polpas de frutas",
     "price": 21.5,
     "unit": "Pacote com 10 unidades de 100 g",
-    "image": "imagens/polpa-abacaxi-pacote.jpg",
+    "image": "imagens/polpa-abacaxi-com-hortela-pacote.jpg",
     "desc": "Pacote com 10 polpas de abacaxi com hortelã. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Abacaxi com Hortelã"
   },
