@@ -49,3 +49,8 @@ Atualização recente: a embalagem de Água mineral Cristal Select em copos de 2
 ### Atualização desta versão
 
 Incluída a categoria **Frutas congeladas**: Acerola (R$ 14,50), Abacaxi (R$ 25,00), Amora (R$ 30,00), Mix de Frutas Vermelhas (R$ 41,50), Mirtilo (R$ 45,00), Morango (R$ 24,00) e Maracujá (R$ 36,00).
+
+
+### Fotos reais das polpas
+
+As fotos enviadas foram otimizadas para carregamento no site e ligadas aos produtos da categoria “Polpas de frutas”. As imagens estão em `imagens/produtos/polpas/`; cada produto de unidade e pacote usa a fotografia correspondente ao sabor. Uma imagem cujo nome não identifica com segurança um sabor foi mantida na pasta sem associação automática.
