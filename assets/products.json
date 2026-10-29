@@ -214,7 +214,8 @@
     "price": 15,
     "unit": "Refil",
     "icon": "💧",
-    "desc": "Refil."
+    "desc": "Refil.",
+    "image": "imagens/foto-aguas-galao-agua-mineral-4-fontes-20l.jpg"
   },
   {
     "id": "agua-16",
@@ -233,7 +234,8 @@
     "price": 11,
     "unit": "Refil",
     "icon": "💧",
-    "desc": "Refil."
+    "desc": "Refil.",
+    "image": "imagens/foto-aguas-galao-agua-mineral-4-fontes-10l.jpg"
   },
   {
     "id": "agua-18",
