@@ -955,15 +955,6 @@
     "image": "imagens/foto-filtros-filtro-eletrico-para-galaopreto-ou-branco-110-220-v.jpg"
   },
   {
-    "id": "kit-beer",
-    "name": "Kit beer sortido — porta-garrafa 600 ml + caneca de cerveja 600 ml",
-    "category": "Acessórios para bebidas",
-    "price": 55,
-    "unit": "kit",
-    "icon": "🍺",
-    "desc": "Modelos sortidos."
-  },
-  {
     "id": "champanheira-metal",
     "name": "Champanheira de metal — 10 L",
     "category": "Acessórios para bebidas",
