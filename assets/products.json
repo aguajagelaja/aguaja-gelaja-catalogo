@@ -1514,7 +1514,8 @@
     "unit": "pacote",
     "icon": "🧀",
     "desc": "Pão de queijo congelado.",
-    "group": "350 g"
+    "group": "350 g",
+    "image": "imagens/foto-paes-de-queijo-pao-de-queijo-com-doce-de-leite-350g.jpg"
   },
   {
     "id": "pao-caseiro-congelado-500g",
