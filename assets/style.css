@@ -4,3 +4,7 @@
 .photo{height:140px;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:3rem}
 .photo img{display:block;width:100%;height:100%;object-fit:contain;border-radius:10px}
 @media(max-width:460px){.photo{height:112px}}
+
+
+/* Sprite de fotos reais dos produtos */
+.photo-sprite{display:block;width:100%;height:100%;background-image:var(--products-sprite);background-repeat:no-repeat;background-size:1000% 700%;border-radius:10px}
