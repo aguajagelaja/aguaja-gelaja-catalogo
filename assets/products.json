@@ -831,15 +831,6 @@
     "image": "imagens/polpa-uva-pacote.jpg"
   },
   {
-    "id": "pao-queijo",
-    "name": "Pães de queijo — sabores e tamanhos",
-    "category": "Pães de queijo",
-    "price": null,
-    "unit": "sob consulta",
-    "icon": "🥐",
-    "desc": "Consulte sabores, tamanhos e disponibilidade."
-  },
-  {
     "id": "filtro-barro-modelos",
     "name": "Filtros de barro — modelos variados",
     "category": "Filtro de barro",
