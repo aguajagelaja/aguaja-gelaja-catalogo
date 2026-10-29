@@ -935,16 +935,6 @@
     "desc": "Consulte a loja para mais informações."
   },
   {
-    "id": "arvore-natal",
-    "name": "Árvore de Natal com ponteira, 204 LEDs coloridos, 1,9 m, bivolt",
-    "category": "Natal",
-    "price": 230,
-    "unit": "unidade",
-    "icon": "🎄",
-    "desc": "Consulte a loja para mais informações.",
-    "image": "imagens/foto-diversos-img-20261029-095057.jpg"
-  },
-  {
     "id": "espuma-drinks",
     "name": "Espuma para drinks e sucos — 190 g / 200 ml",
     "category": "Drinks e bebidas",
@@ -953,15 +943,6 @@
     "icon": "🍹",
     "desc": "Consulte a loja para mais informações.",
     "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-163959.jpg"
-  },
-  {
-    "id": "acquamix-soda",
-    "name": "Água gaseificada Acquamix Soda — 1,5 L",
-    "category": "Drinks e bebidas",
-    "price": 30,
-    "unit": "unidade",
-    "icon": "💧",
-    "desc": "Consulte a loja para mais informações."
   },
   {
     "id": "filtro-eletrico",
@@ -1162,36 +1143,6 @@
     "unit": "unidade",
     "icon": "🔥",
     "desc": "Consulte a loja para mais informações."
-  },
-  {
-    "id": "copo-descartavel-150",
-    "name": "Copo descartável — 150 ml",
-    "category": "Copos e descartáveis",
-    "price": 7,
-    "unit": "pacote",
-    "icon": "🥤",
-    "desc": "Consulte a loja para mais informações.",
-    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-150ml-com-100-unidades.jpg"
-  },
-  {
-    "id": "copo-descartavel-180",
-    "name": "Copo descartável — 180 ml",
-    "category": "Copos e descartáveis",
-    "price": 8,
-    "unit": "pacote",
-    "icon": "🥤",
-    "desc": "Consulte a loja para mais informações.",
-    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-180ml-com-100-unidades.jpg"
-  },
-  {
-    "id": "copo-descartavel-200",
-    "name": "Copo descartável — 200 ml",
-    "category": "Copos e descartáveis",
-    "price": 9,
-    "unit": "pacote",
-    "icon": "🥤",
-    "desc": "Consulte a loja para mais informações.",
-    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-200ml-com-100-unidades.jpg"
   },
   {
     "id": "isopor-alimento-4kg",
@@ -1812,15 +1763,6 @@
     "icon": "💧",
     "desc": "Garrafa de 1,5 L.",
     "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-163947.jpg"
-  },
-  {
-    "id": "colchao-inflavel-solteiro",
-    "name": "Colchão inflável solteiro",
-    "category": "Camping e lazer",
-    "price": 120,
-    "unit": "unidade",
-    "icon": "🏕️",
-    "desc": "Colchão inflável de solteiro."
   },
   {
     "id": "isopor-500g",
