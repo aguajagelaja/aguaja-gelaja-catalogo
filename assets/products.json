@@ -831,15 +831,6 @@
     "image": "imagens/polpa-uva-pacote.jpg"
   },
   {
-    "id": "boias-modelos",
-    "name": "Boias infláveis — modelos variados",
-    "category": "Boias infláveis",
-    "price": null,
-    "unit": "sob consulta",
-    "icon": "🛟",
-    "desc": "Consulte modelos, tamanhos e disponibilidade."
-  },
-  {
     "id": "boias-porta-copo-modelos",
     "name": "Boias porta-copo — modelos variados",
     "category": "Boias porta-copo",
