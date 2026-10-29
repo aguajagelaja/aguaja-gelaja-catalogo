@@ -831,15 +831,6 @@
     "image": "imagens/polpa-uva-pacote.jpg"
   },
   {
-    "id": "suporte-galao-modelos",
-    "name": "Suportes para galão — modelos variados",
-    "category": "Suporte para galão",
-    "price": null,
-    "unit": "sob consulta",
-    "icon": "💧",
-    "desc": "Consulte modelos e disponibilidade."
-  },
-  {
     "id": "boias-modelos",
     "name": "Boias infláveis — modelos variados",
     "category": "Boias infláveis",
