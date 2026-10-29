@@ -831,15 +831,6 @@
     "image": "imagens/polpa-uva-pacote.jpg"
   },
   {
-    "id": "filtro-barro-modelos",
-    "name": "Filtros de barro — modelos variados",
-    "category": "Filtro de barro",
-    "price": null,
-    "unit": "sob consulta",
-    "icon": "💧",
-    "desc": "Consulte modelos, capacidades e valores."
-  },
-  {
     "id": "suporte-galao-modelos",
     "name": "Suportes para galão — modelos variados",
     "category": "Suporte para galão",
