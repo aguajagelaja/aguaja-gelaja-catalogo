@@ -831,15 +831,6 @@
     "image": "imagens/polpa-uva-pacote.jpg"
   },
   {
-    "id": "piscinas-inflaveis-modelos",
-    "name": "Piscinas infláveis — modelos variados",
-    "category": "Piscinas infláveis",
-    "price": null,
-    "unit": "sob consulta",
-    "icon": "🏊",
-    "desc": "Consulte modelos, tamanhos e valores."
-  },
-  {
     "id": "piscina-metal-1000",
     "name": "Piscina infantil montável — 1.000 L",
     "category": "Piscinas com estrutura metálica",
