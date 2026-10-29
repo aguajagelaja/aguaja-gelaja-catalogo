@@ -7,7 +7,7 @@
     "unit": "pacote",
     "icon": "🧊",
     "desc": "Gelo em cubos.",
-    "spriteIndex": 46
+    "image": "imagens/foto-gelos-gelo-1kg.jpg"
   },
   {
     "id": "gelo-especial-1kg",
@@ -26,7 +26,7 @@
     "unit": "pacote",
     "icon": "🧊",
     "desc": "Pacote de 3 kg.",
-    "spriteIndex": 47
+    "image": "imagens/foto-gelos-gelo-3kg.jpg"
   },
   {
     "id": "gelo-5kg",
@@ -36,7 +36,7 @@
     "unit": "pacote",
     "icon": "🧊",
     "desc": "Pacote de 5 kg.",
-    "spriteIndex": 48
+    "image": "imagens/foto-gelos-gelo-5kg.jpg"
   },
   {
     "id": "gelo-triturado-10kg",
@@ -46,7 +46,7 @@
     "unit": "pacote",
     "icon": "❄️",
     "desc": "Pacote de 10 kg.",
-    "spriteIndex": 49
+    "image": "imagens/foto-gelos-gelo-triturado-10kg.jpg"
   },
   {
     "id": "gelo-barra-10kg",
@@ -65,7 +65,7 @@
     "unit": "pacote",
     "icon": "❄️",
     "desc": "Pacote de 25 kg.",
-    "spriteIndex": 50
+    "image": "imagens/foto-gelos-gelo-triturado-25kg.jpg"
   },
   {
     "id": "agua-1",
@@ -75,7 +75,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 8
+    "image": "imagens/foto-aguas-fardos-sem-gas-500ml-fardo-agua-mineral-aguaja-sem-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-2",
@@ -85,7 +85,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 10
+    "image": "imagens/foto-aguas-fardos-sem-gas-500ml-fardo-agua-mineral-cristal-select-sem-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-3",
@@ -95,7 +95,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 9
+    "image": "imagens/foto-aguas-fardos-sem-gas-500ml-fardo-agua-mineral-aragua-sem-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-4",
@@ -105,7 +105,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 11
+    "image": "imagens/foto-aguas-fardos-sem-gas-500ml-fardo-agua-mineral-sferrie-sem-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-5",
@@ -115,7 +115,7 @@
     "unit": "Fardo com 6",
     "icon": "💧",
     "desc": "Fardo com 6.",
-    "spriteIndex": 2
+    "image": "imagens/foto-aguas-fardos-1500ml-sem-gas-fardo-agua-mineral-cristal-select-1500ml-com-6-unidades.jpg"
   },
   {
     "id": "agua-6",
@@ -125,7 +125,7 @@
     "unit": "Fardo com 6",
     "icon": "💧",
     "desc": "Fardo com 6.",
-    "spriteIndex": 1
+    "image": "imagens/foto-aguas-fardos-1500ml-sem-gas-fardo-agua-mineral-aragua-1500ml-com-6-unidades.jpg"
   },
   {
     "id": "agua-7",
@@ -135,7 +135,7 @@
     "unit": "Fardo com 6",
     "icon": "💧",
     "desc": "Fardo com 6.",
-    "spriteIndex": 3
+    "image": "imagens/foto-aguas-fardos-1500ml-sem-gas-fardo-agua-mineral-sferrie-1500ml-com-6-unidades.jpg"
   },
   {
     "id": "agua-8",
@@ -145,7 +145,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 5
+    "image": "imagens/foto-aguas-fardos-com-gas-500ml-fardo-agua-mineral-cristal-select-com-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-9",
@@ -155,7 +155,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 4
+    "image": "imagens/foto-aguas-fardos-com-gas-500ml-fardo-agua-mineral-aragua-com-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-10",
@@ -165,7 +165,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 7
+    "image": "imagens/foto-aguas-fardos-com-gas-500ml-fardo-agua-mineral-sferrie-com-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-11",
@@ -175,7 +175,7 @@
     "unit": "Fardo com 12",
     "icon": "💧",
     "desc": "Fardo com 12.",
-    "spriteIndex": 6
+    "image": "imagens/foto-aguas-fardos-com-gas-500ml-fardo-agua-mineral-saboraki-com-gas-500ml-com-gas.jpg"
   },
   {
     "id": "agua-12",
@@ -185,7 +185,7 @@
     "unit": "Unidade",
     "icon": "💧",
     "desc": "Unidade.",
-    "spriteIndex": 12
+    "image": "imagens/foto-aguas-galao-5l-agua-mineral-4-fontes-sem-gas-5l.jpg"
   },
   {
     "id": "agua-13",
@@ -195,7 +195,7 @@
     "unit": "Unidade",
     "icon": "💧",
     "desc": "Unidade.",
-    "spriteIndex": 13
+    "image": "imagens/foto-aguas-galao-5l-agua-mineral-cristal-select-sem-gas-5l.jpg"
   },
   {
     "id": "agua-14",
@@ -205,7 +205,7 @@
     "unit": "Embalagem com 48 copos",
     "icon": "💧",
     "desc": "Embalagem com 48 copos de 200 ml, sem gás.",
-    "spriteIndex": 0
+    "image": "imagens/foto-aguas-agua-mineral-cristal-select-sem-gas-200ml-embalagem-com-48-unidades.jpg"
   },
   {
     "id": "agua-15",
@@ -224,7 +224,7 @@
     "unit": "Galão completo",
     "icon": "💧",
     "desc": "Galão completo.",
-    "spriteIndex": 15
+    "image": "imagens/foto-aguas-galao-agua-mineral-4-fontes-20l.jpg"
   },
   {
     "id": "agua-17",
@@ -243,7 +243,7 @@
     "unit": "Galão completo",
     "icon": "💧",
     "desc": "Galão completo.",
-    "spriteIndex": 14
+    "image": "imagens/foto-aguas-galao-agua-mineral-4-fontes-10l.jpg"
   },
   {
     "id": "coco-leve-unit",
@@ -264,7 +264,7 @@
       "Beats Red Mix",
       "Beats GT"
     ],
-    "spriteIndex": 52
+    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-leve.jpg"
   },
   {
     "id": "coco-leve-box30",
@@ -285,7 +285,7 @@
       "Beats Red Mix",
       "Beats GT"
     ],
-    "spriteIndex": 52
+    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-leve.jpg"
   },
   {
     "id": "coco-leve-mix",
@@ -306,7 +306,7 @@
       "Beats Red Mix",
       "Beats GT"
     ],
-    "spriteIndex": 52
+    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-leve.jpg"
   },
   {
     "id": "coco-fresh-unit",
@@ -326,7 +326,7 @@
       "Energético",
       "Limão"
     ],
-    "spriteIndex": 51
+    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-fresh.jpg"
   },
   {
     "id": "coco-fresh-box30",
@@ -346,7 +346,7 @@
       "Energético",
       "Limão"
     ],
-    "spriteIndex": 51
+    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-fresh.jpg"
   },
   {
     "id": "coco-fresh-mix",
@@ -366,7 +366,7 @@
       "Energético",
       "Limão"
     ],
-    "spriteIndex": 51
+    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-fresh.jpg"
   },
   {
     "id": "polpa-unit-1",
@@ -935,7 +935,7 @@
     "unit": "unidade",
     "icon": "🚰",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 65
+    "image": "imagens/foto-torneiras-torneira-para-filtro.jpg"
   },
   {
     "id": "torneira-com-filtro",
@@ -945,7 +945,7 @@
     "unit": "unidade",
     "icon": "🚰",
     "desc": "Cor: vermelho.",
-    "spriteIndex": 64
+    "image": "imagens/foto-torneiras-torneira-com-filtrovermelha.jpg"
   },
   {
     "id": "suporte-pet",
@@ -955,7 +955,7 @@
     "unit": "unidade",
     "icon": "💧",
     "desc": "Cores: preto e vermelho.",
-    "spriteIndex": 29
+    "image": "imagens/foto-diversos-img-20261029-093702.jpg"
   },
   {
     "id": "vela-filtro",
@@ -965,7 +965,7 @@
     "unit": "unidade",
     "icon": "💧",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 30
+    "image": "imagens/foto-diversos-img-20261029-093746.jpg"
   },
   {
     "id": "abridor-garrafao",
@@ -975,7 +975,7 @@
     "unit": "unidade",
     "icon": "🔧",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 28
+    "image": "imagens/foto-diversos-img-20261029-093451.jpg"
   },
   {
     "id": "garrafa-inox-25",
@@ -1003,7 +1003,7 @@
     "unit": "unidade",
     "icon": "🎄",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 31
+    "image": "imagens/foto-diversos-img-20261029-095057.jpg"
   },
   {
     "id": "espuma-drinks",
@@ -1013,7 +1013,7 @@
     "unit": "unidade",
     "icon": "🍹",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 69
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-163959.jpg"
   },
   {
     "id": "acquamix-soda",
@@ -1032,7 +1032,7 @@
     "unit": "unidade",
     "icon": "🚰",
     "desc": "Aceitamos cartão de crédito com juros.",
-    "spriteIndex": 38
+    "image": "imagens/foto-filtros-filtro-eletrico-para-galaopreto-ou-branco-110-220-v.jpg"
   },
   {
     "id": "kit-beer",
@@ -1051,7 +1051,7 @@
     "unit": "unidade",
     "icon": "🥂",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 34
+    "image": "imagens/foto-diversos-img-20261029-095611.jpg"
   },
   {
     "id": "touca-natacao",
@@ -1232,7 +1232,7 @@
     "unit": "pacote",
     "icon": "🥤",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 25
+    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-150ml-com-100-unidades.jpg"
   },
   {
     "id": "copo-descartavel-180",
@@ -1242,7 +1242,7 @@
     "unit": "pacote",
     "icon": "🥤",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 26
+    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-180ml-com-100-unidades.jpg"
   },
   {
     "id": "copo-descartavel-200",
@@ -1252,7 +1252,7 @@
     "unit": "pacote",
     "icon": "🥤",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 27
+    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-200ml-com-100-unidades.jpg"
   },
   {
     "id": "xarope-500-1",
@@ -1262,7 +1262,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-2",
@@ -1272,7 +1272,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-3",
@@ -1282,7 +1282,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-4",
@@ -1292,7 +1292,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-5",
@@ -1302,7 +1302,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-6",
@@ -1312,7 +1312,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-7",
@@ -1322,7 +1322,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-8",
@@ -1332,7 +1332,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-9",
@@ -1342,7 +1342,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-10",
@@ -1352,7 +1352,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-11",
@@ -1362,7 +1362,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-12",
@@ -1372,7 +1372,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-500-13",
@@ -1382,7 +1382,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-zero-1",
@@ -1392,7 +1392,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 67
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
   },
   {
     "id": "xarope-zero-2",
@@ -1402,7 +1402,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 67
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
   },
   {
     "id": "xarope-zero-3",
@@ -1412,7 +1412,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 67
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
   },
   {
     "id": "xarope-zero-4",
@@ -1422,7 +1422,7 @@
     "unit": "garrafa",
     "icon": "🍓",
     "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "spriteIndex": 67
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
   },
   {
     "id": "isopor-alimento-4kg",
@@ -1599,7 +1599,7 @@
     "unit": "unidade",
     "icon": "💧",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 35
+    "image": "imagens/foto-filtros-filtro-de-barro4l.jpg"
   },
   {
     "id": "filtro-barro-5l",
@@ -1609,7 +1609,7 @@
     "unit": "unidade",
     "icon": "💧",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 36
+    "image": "imagens/foto-filtros-filtro-de-barro5l.jpg"
   },
   {
     "id": "filtro-barro-7l",
@@ -1619,7 +1619,7 @@
     "unit": "unidade",
     "icon": "💧",
     "desc": "Consulte a loja para mais informações.",
-    "spriteIndex": 37
+    "image": "imagens/foto-filtros-filtro-de-barro7l.jpg"
   },
   {
     "id": "piscina-infantil-180l",
@@ -1650,7 +1650,7 @@
     "icon": "🧀",
     "desc": "Pão de queijo congelado.",
     "group": "1 kg",
-    "spriteIndex": 53
+    "image": "imagens/foto-paes-de-queijo-pao-de-queijo-1kg.jpg"
   },
   {
     "id": "paodequeijo-requeijao-350g",
@@ -1661,7 +1661,7 @@
     "icon": "🧀",
     "desc": "Pão de queijo congelado.",
     "group": "350 g",
-    "spriteIndex": 56
+    "image": "imagens/foto-paes-de-queijo-pao-de-queijo-com-requeijao-350g.jpg"
   },
   {
     "id": "paodequeijo-goiabada-350g",
@@ -1672,7 +1672,7 @@
     "icon": "🧀",
     "desc": "Pão de queijo congelado.",
     "group": "350 g",
-    "spriteIndex": 55
+    "image": "imagens/foto-paes-de-queijo-pao-de-queijo-com-goiabada-350g.jpg"
   },
   {
     "id": "paodequeijo-docedeleite-350g",
@@ -1693,7 +1693,7 @@
     "icon": "🧀",
     "desc": "Produto congelado.",
     "group": "500 g",
-    "spriteIndex": 59
+    "image": "imagens/foto-pao-e-acai-pao-caseiro-congelado-500g.jpg"
   },
   {
     "id": "polenta-palito-1kg",
@@ -1714,7 +1714,7 @@
     "icon": "🚰",
     "desc": "Cerâmica Indaiá de Indiana.",
     "group": "Cerâmica Indaiá de Indiana",
-    "spriteIndex": 61
+    "image": "imagens/foto-suporte-para-galao-suporte-de-barro-ceramica-indaia-de-indiana.jpg"
   },
   {
     "id": "suporte-galao-terraplast",
@@ -1725,7 +1725,7 @@
     "icon": "🚰",
     "desc": "Modelo Terraplast.",
     "group": "Terraplast",
-    "spriteIndex": 63
+    "image": "imagens/foto-suporte-para-galao-suporte-terraplast.jpg"
   },
   {
     "id": "suporte-galao-acrilico",
@@ -1736,7 +1736,7 @@
     "icon": "🚰",
     "desc": "Modelo em acrílico.",
     "group": "acrílico",
-    "spriteIndex": 60
+    "image": "imagens/foto-suporte-para-galao-suporte-de-acrilico.jpg"
   },
   {
     "id": "suporte-galao-inox-cuba-barro",
@@ -1747,7 +1747,7 @@
     "icon": "🚰",
     "desc": "Estrutura em inox e cuba de barro.",
     "group": "Suporte para galão em inox com cuba de barro",
-    "spriteIndex": 62
+    "image": "imagens/foto-suporte-para-galao-suporte-em-inox-com-cuba-de-barro.jpg"
   },
   {
     "id": "termica-decorada-1200",
@@ -1758,7 +1758,7 @@
     "icon": "🥤",
     "desc": "Garrafa térmica decorada.",
     "group": "1.200 ml",
-    "spriteIndex": 22
+    "image": "imagens/foto-canecas-e-garrafas-termicas-img-20261029-094352.jpg"
   },
   {
     "id": "termica-stanley-750",
@@ -1769,7 +1769,7 @@
     "icon": "🥤",
     "desc": "Garrafa térmica de 750 ml.",
     "group": "750 ml",
-    "spriteIndex": 24
+    "image": "imagens/foto-canecas-e-garrafas-termicas-img-20261029-094807.jpg"
   },
   {
     "id": "termica-infantil-gummy-620",
@@ -1780,7 +1780,7 @@
     "icon": "🥤",
     "desc": "Garrafa térmica infantil.",
     "group": "620 ml",
-    "spriteIndex": 23
+    "image": "imagens/foto-canecas-e-garrafas-termicas-img-20261029-094709.jpg"
   },
   {
     "id": "boia-abacaxi",
@@ -1791,7 +1791,7 @@
     "icon": "🏖️",
     "desc": "Boia inflável em formato de abacaxi.",
     "group": "Abacaxi",
-    "spriteIndex": 16
+    "image": "imagens/foto-boias-boia-abacaxi1-54m91cm.jpg"
   },
   {
     "id": "boia-poltrona",
@@ -1802,7 +1802,7 @@
     "icon": "🏖️",
     "desc": "Boia inflável tipo poltrona.",
     "group": "Poltrona",
-    "spriteIndex": 20
+    "image": "imagens/foto-boias-boia-poltrona165cm120cm.jpg"
   },
   {
     "id": "boia-morango",
@@ -1813,7 +1813,7 @@
     "icon": "🏖️",
     "desc": "Boia inflável em formato de morango.",
     "group": "Morango",
-    "spriteIndex": 18
+    "image": "imagens/foto-boias-boia-morango1-42mx1-46m.jpg"
   },
   {
     "id": "boia-colchao-arcoiris",
@@ -1824,7 +1824,7 @@
     "icon": "🏖️",
     "desc": "Colchão inflável colorido.",
     "group": "Colchão Arco-íris",
-    "spriteIndex": 17
+    "image": "imagens/foto-boias-boia-colchao-arco-iris180cm90cm.jpg"
   },
   {
     "id": "boia-pato",
@@ -1835,7 +1835,7 @@
     "icon": "🏖️",
     "desc": "Boia inflável em formato de pato.",
     "group": "Pato",
-    "spriteIndex": 19
+    "image": "imagens/foto-boias-boia-pato1-86mx1-27m.jpg"
   },
   {
     "id": "boia-refrigerador-bar",
@@ -1846,7 +1846,7 @@
     "icon": "🏖️",
     "desc": "Bar/refrigerador flutuante.",
     "group": "Refrigerador/bar",
-    "spriteIndex": 21
+    "image": "imagens/foto-boias-boia-refrigerador-bar-flutuante-ii.jpg"
   },
   {
     "id": "boia-braco-infantil",
@@ -1907,7 +1907,7 @@
     "icon": "🏖️",
     "desc": "Kit com porta-garrafa e caneca.",
     "group": "Stella Artois",
-    "spriteIndex": 32
+    "image": "imagens/foto-diversos-img-20261029-095443.jpg"
   },
   {
     "id": "kit-skol-600",
@@ -1918,7 +1918,7 @@
     "icon": "🏖️",
     "desc": "Kit com porta-garrafa e caneca.",
     "group": "Skol",
-    "spriteIndex": 33
+    "image": "imagens/foto-diversos-img-20261029-095536.jpg"
   },
   {
     "id": "piscina-infantil-50l",
@@ -1948,7 +1948,7 @@
     "unit": "unidade",
     "icon": "🧴",
     "desc": "Cores: preto e vermelho.",
-    "spriteIndex": 29
+    "image": "imagens/foto-diversos-img-20261029-093702.jpg"
   },
   {
     "id": "copos-150",
@@ -1958,7 +1958,7 @@
     "unit": "pacote",
     "icon": "🥤",
     "desc": "Pacote; quantidade por pacote não informada.",
-    "spriteIndex": 25
+    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-150ml-com-100-unidades.jpg"
   },
   {
     "id": "copos-180",
@@ -1968,7 +1968,7 @@
     "unit": "pacote",
     "icon": "🥤",
     "desc": "Pacote; quantidade por pacote não informada.",
-    "spriteIndex": 26
+    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-180ml-com-100-unidades.jpg"
   },
   {
     "id": "copos-200",
@@ -1978,7 +1978,7 @@
     "unit": "pacote",
     "icon": "🥤",
     "desc": "Pacote; quantidade por pacote não informada.",
-    "spriteIndex": 27
+    "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-200ml-com-100-unidades.jpg"
   },
   {
     "id": "arvore-natal-204led",
@@ -1988,7 +1988,7 @@
     "unit": "unidade",
     "icon": "🎄",
     "desc": "Árvore com ponteira e 204 LEDs coloridos.",
-    "spriteIndex": 31
+    "image": "imagens/foto-diversos-img-20261029-095057.jpg"
   },
   {
     "id": "xarope-frutas-500",
@@ -1999,7 +1999,7 @@
     "icon": "🍹",
     "desc": "Sabores: pêssego, cereja, melancia, kiwi, maçã verde, blue curaçau laranja, morango, frutas vermelhas, maracujá, limão siciliano, tangerina, cranberry e mirtilo (blueberry). Qualquer sabor: R$ 36,50.",
     "group": "Tradicionais",
-    "spriteIndex": 66
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
   },
   {
     "id": "xarope-sem-acucar-500",
@@ -2010,7 +2010,7 @@
     "icon": "🍹",
     "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
     "group": "Sem açúcar",
-    "spriteIndex": 67
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
   },
   {
     "id": "acquamix-soda-15l",
@@ -2020,7 +2020,7 @@
     "unit": "unidade",
     "icon": "💧",
     "desc": "Garrafa de 1,5 L.",
-    "spriteIndex": 68
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-163947.jpg"
   },
   {
     "id": "colchao-inflavel-solteiro",
@@ -2209,7 +2209,7 @@
     "unit": "pote",
     "icon": "🍧",
     "desc": "Açaí tradicional Ice Mix em pote de 2 litros.",
-    "spriteIndex": 57
+    "image": "imagens/foto-pao-e-acai-acai-tradicional-ice-mix-2l.jpg"
   },
   {
     "id": "acai-master-fruto-5l",
@@ -2228,7 +2228,7 @@
     "unit": "pacote",
     "icon": "🍒",
     "desc": "Acerola congelada.",
-    "spriteIndex": 40
+    "image": "imagens/foto-frutas-congeladas-acerola-fruta-1kg.jpg"
   },
   {
     "id": "fruta-congelada-abacaxi",
@@ -2238,7 +2238,7 @@
     "unit": "pacote",
     "icon": "🍍",
     "desc": "Abacaxi congelada.",
-    "spriteIndex": 39
+    "image": "imagens/foto-frutas-congeladas-abacaxi-fruta-1kg.jpg"
   },
   {
     "id": "fruta-congelada-amora",
@@ -2248,7 +2248,7 @@
     "unit": "pacote",
     "icon": "🫐",
     "desc": "Amora congelada.",
-    "spriteIndex": 41
+    "image": "imagens/foto-frutas-congeladas-amora-fruta-1kg.jpg"
   },
   {
     "id": "fruta-congelada-mix-frutas-vermelhas",
@@ -2258,7 +2258,7 @@
     "unit": "pacote",
     "icon": "🍓",
     "desc": "Mix de Frutas Vermelhas congelada.",
-    "spriteIndex": 44
+    "image": "imagens/foto-frutas-congeladas-mix-de-frutas-verrmelhas-1kg.jpg"
   },
   {
     "id": "fruta-congelada-mirtilo",
@@ -2268,7 +2268,7 @@
     "unit": "pacote",
     "icon": "🫐",
     "desc": "Mirtilo congelada.",
-    "spriteIndex": 43
+    "image": "imagens/foto-frutas-congeladas-mirtilo-fruta-1kg.jpg"
   },
   {
     "id": "fruta-congelada-morango",
@@ -2278,7 +2278,7 @@
     "unit": "pacote",
     "icon": "🍓",
     "desc": "Morango congelada.",
-    "spriteIndex": 45
+    "image": "imagens/foto-frutas-congeladas-morango-fruta-1kg.jpg"
   },
   {
     "id": "fruta-congelada-maracuja",
@@ -2288,6 +2288,6 @@
     "unit": "pacote",
     "icon": "🥭",
     "desc": "Maracujá congelada.",
-    "spriteIndex": 42
+    "image": "imagens/foto-frutas-congeladas-maracuja-com-sementes-1kg.jpg"
   }
 ]
