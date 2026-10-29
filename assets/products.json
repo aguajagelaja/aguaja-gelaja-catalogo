@@ -1255,176 +1255,6 @@
     "image": "imagens/foto-copos-descartaveis-pacote-copo-descartavel-200ml-com-100-unidades.jpg"
   },
   {
-    "id": "xarope-500-1",
-    "name": "Xarope de frutas 500 ml — Pêssego",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-2",
-    "name": "Xarope de frutas 500 ml — Cereja",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-3",
-    "name": "Xarope de frutas 500 ml — Melancia",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-4",
-    "name": "Xarope de frutas 500 ml — Kiwi",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-5",
-    "name": "Xarope de frutas 500 ml — Maçã verde",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-6",
-    "name": "Xarope de frutas 500 ml — Blue curaçau Laranja",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-7",
-    "name": "Xarope de frutas 500 ml — Morango",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-8",
-    "name": "Xarope de frutas 500 ml — Frutas vermelhas",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-9",
-    "name": "Xarope de frutas 500 ml — Maracujá",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-10",
-    "name": "Xarope de frutas 500 ml — Limão siciliano",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-11",
-    "name": "Xarope de frutas 500 ml — Tangerina",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-12",
-    "name": "Xarope de frutas 500 ml — Cranberry",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-500-13",
-    "name": "Xarope de frutas 500 ml — Mirtilo (Blueberry)",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Consulte a loja para mais informações. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
-  },
-  {
-    "id": "xarope-zero-1",
-    "name": "Xarope sem açúcar 500 ml — Frutas vermelhas",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
-  },
-  {
-    "id": "xarope-zero-2",
-    "name": "Xarope sem açúcar 500 ml — Morango",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
-  },
-  {
-    "id": "xarope-zero-3",
-    "name": "Xarope sem açúcar 500 ml — Maçã verde",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
-  },
-  {
-    "id": "xarope-zero-4",
-    "name": "Xarope sem açúcar 500 ml — Limão siciliano",
-    "category": "Xaropes de frutas",
-    "price": 36.5,
-    "unit": "garrafa",
-    "icon": "🍓",
-    "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
-  },
-  {
     "id": "isopor-alimento-4kg",
     "name": "Caixa de isopor para alimento — 4 kg",
     "category": "Caixas de isopor para alimento",
@@ -1994,23 +1824,44 @@
     "id": "xarope-frutas-500",
     "name": "Xarope de frutas — 500 ml (sabores variados)",
     "category": "Xaropes",
-    "price": 36.5,
+    "price": null,
     "unit": "garrafa de 500 ml",
     "icon": "🍹",
-    "desc": "Sabores: pêssego, cereja, melancia, kiwi, maçã verde, blue curaçau laranja, morango, frutas vermelhas, maracujá, limão siciliano, tangerina, cranberry e mirtilo (blueberry). Qualquer sabor: R$ 36,50.",
+    "desc": "Consulte pelo WhatsApp o preço e a disponibilidade dos sabores: pêssego, cereja, melancia, kiwi, maçã verde, blue curaçau laranja, morango, frutas vermelhas, maracujá, limão siciliano, tangerina, cranberry e mirtilo (blueberry).",
     "group": "Tradicionais",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg"
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154915.jpg",
+    "flavors": [
+      "Pêssego",
+      "Cereja",
+      "Melancia",
+      "Kiwi",
+      "Maçã verde",
+      "Blue curaçau Laranja",
+      "Morango",
+      "Frutas vermelhas",
+      "Maracujá",
+      "Limão siciliano",
+      "Tangerina",
+      "Cranberry",
+      "Mirtilo (Blueberry)"
+    ]
   },
   {
     "id": "xarope-sem-acucar-500",
     "name": "Xarope de frutas sem açúcar — 500 ml",
     "category": "Xaropes",
-    "price": 36.5,
+    "price": null,
     "unit": "garrafa de 500 ml",
     "icon": "🍹",
-    "desc": "Sem açúcar. Sabores: frutas vermelhas, morango, maçã verde e limão siciliano. Qualquer sabor: R$ 36,50.",
+    "desc": "Consulte pelo WhatsApp o preço e a disponibilidade dos sabores sem açúcar: frutas vermelhas, morango, maçã verde e limão siciliano.",
     "group": "Sem açúcar",
-    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg"
+    "image": "imagens/foto-xarope-de-fruta-agua-gaseificada-espuma-pra-drink-img-20261028-154950.jpg",
+    "flavors": [
+      "Frutas vermelhas",
+      "Morango",
+      "Maçã verde",
+      "Limão siciliano"
+    ]
   },
   {
     "id": "acquamix-soda-15l",
