@@ -849,15 +849,6 @@
     "desc": "Consulte modelos e disponibilidade."
   },
   {
-    "id": "caneca-termica-modelos",
-    "name": "Canecas térmicas — modelos variados",
-    "category": "Canecas térmicas",
-    "price": null,
-    "unit": "sob consulta",
-    "icon": "🥤",
-    "desc": "Consulte modelos, cores e valores."
-  },
-  {
     "id": "boias-modelos",
     "name": "Boias infláveis — modelos variados",
     "category": "Boias infláveis",
