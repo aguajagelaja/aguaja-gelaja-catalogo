@@ -2013,5 +2013,25 @@
     "icon": "🥭",
     "desc": "Maracujá congelada.",
     "image": "imagens/foto-frutas-congeladas-maracuja-com-sementes-1kg.jpg"
+  },
+  {
+    "id": "piscina-inflavel-88l",
+    "name": "Piscina Inflável 76cm x 25cm 88L",
+    "category": "Piscinas infláveis",
+    "price": 45,
+    "unit": "unidade",
+    "icon": "🏊",
+    "desc": "Piscina inflável com 76 cm de diâmetro, 25 cm de altura e capacidade de 88 litros.",
+    "group": "88 L — modelo tradicional"
+  },
+  {
+    "id": "piscina-inflavel-astronauta-88l",
+    "name": "Piscina Inflável Astronauta 76cm x 25cm 88L",
+    "category": "Piscinas infláveis",
+    "price": 50,
+    "unit": "unidade",
+    "icon": "🚀",
+    "desc": "Piscina inflável infantil tema Astronauta, com 76 cm de diâmetro, 25 cm de altura e capacidade de 88 litros.",
+    "group": "88 L — Astronauta"
   }
 ]
