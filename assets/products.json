@@ -2022,7 +2022,8 @@
     "unit": "unidade",
     "icon": "🏊",
     "desc": "Piscina inflável com 76 cm de diâmetro, 25 cm de altura e capacidade de 88 litros.",
-    "group": "88 L — modelo tradicional"
+    "group": "88 L — modelo tradicional",
+    "image": "imagens/foto-piscinas-piscina-inflavel-88l.webp"
   },
   {
     "id": "piscina-inflavel-astronauta-88l",
@@ -2032,6 +2033,7 @@
     "unit": "unidade",
     "icon": "🚀",
     "desc": "Piscina inflável infantil tema Astronauta, com 76 cm de diâmetro, 25 cm de altura e capacidade de 88 litros.",
-    "group": "88 L — Astronauta"
+    "group": "88 L — Astronauta",
+    "image": "imagens/foto-piscinas-piscina-inflavel-astronauta-88l.webp"
   }
 ]
