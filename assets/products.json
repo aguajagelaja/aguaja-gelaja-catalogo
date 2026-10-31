@@ -1039,7 +1039,8 @@
     "price": 30,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Grelha-para-peixe-Light.jpg"
   },
   {
     "id": "espeto-espada",
@@ -1048,7 +1049,8 @@
     "price": 28,
     "unit": "unidade",
     "icon": "🍢",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Espeto-espada-inox.jpg"
   },
   {
     "id": "espeto-duplo",
@@ -1057,7 +1059,8 @@
     "price": 32,
     "unit": "unidade",
     "icon": "🍢",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Espeto-duplo-inox.jpg"
   },
   {
     "id": "churrasqueira-bafo-botijao",
@@ -1243,7 +1246,8 @@
     "price": 78,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Grelha-galvanizada-30x50cm.jpg"
   },
   {
     "id": "grelha-galv-40x50",
@@ -1252,7 +1256,8 @@
     "price": 80,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Grelha-galvanizada-40x50cm.jpg"
   },
   {
     "id": "grelha-galv-50x40",
@@ -1306,7 +1311,8 @@
     "price": 30,
     "unit": "saco",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Carvão-de-eucalipto—7kg.jpg"
   },
   {
     "id": "carvao-eucalipto-10kg",
@@ -1355,7 +1361,8 @@
     "unit": "unidade",
     "icon": "🏊",
     "desc": "Medidas: 107 × 25 cm.",
-    "group": "Piscina infantil 3 anéis — 180 L"
+    "group": "Piscina infantil 3 anéis — 180 L",
+    "image": "imagens/Piscina-infantil-3-aneis—180L.jpg"
   },
   {
     "id": "piscina-infantil-400l",
@@ -1365,7 +1372,8 @@
     "unit": "unidade",
     "icon": "🏊",
     "desc": "Medidas: 155 × 25 cm.",
-    "group": "Piscina infantil 3 anéis — 400 L"
+    "group": "Piscina infantil 3 anéis — 400 L",
+    "image": "imagens/Piscina-infantil-3-aneis—400L.jpg"
   },
   {
     "id": "paodequeijo-gourmet-1kg",
@@ -1430,7 +1438,8 @@
     "unit": "pacote",
     "icon": "🧀",
     "desc": "Produto congelado.",
-    "group": "1 kg"
+    "group": "1 kg",
+    "image": "imagens/Polenta-palito-tradicional-1kg.jpeg"
   },
   {
     "id": "suporte-galao-ceramica-indaiá",
@@ -1583,7 +1592,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Boia de braço infantil.",
-    "group": "Braço infantil"
+    "group": "Braço infantil",
+    "image": "imagens/Boia-de-braco-infantil.jpg"
   },
   {
     "id": "boia-fundo-mar",
@@ -1623,7 +1633,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Boia porta-copo em formato de nuvem.",
-    "group": "Nuvem"
+    "group": "Nuvem",
+    "image": "imagens/Boia-porta-copo-Nuvem.jpg"
   },
   {
     "id": "kit-stella-600",
@@ -1655,7 +1666,8 @@
     "unit": "unidade",
     "icon": "🏊",
     "desc": "Piscina infantil inflável.",
-    "group": "50 L"
+    "group": "50 L",
+    "image": "imagens/Piscina-infantil—50L.jpg"
   },
   {
     "id": "piscina-sunway-1000l",
@@ -1665,7 +1677,8 @@
     "unit": "unidade",
     "icon": "🏊",
     "desc": "Piscina inflável Sunway.",
-    "group": "Sunway 1.000 L"
+    "group": "Sunway 1.000 L",
+    "image": "imagens/Piscina-inflavel-Sunway—1.000L.jpg"
   },
   {
     "id": "suporte-garrafa-pet",
@@ -1949,15 +1962,6 @@
     "icon": "🍧",
     "desc": "Açaí tradicional Ice Mix em pote de 2 litros.",
     "image": "imagens/foto-pao-e-acai-acai-tradicional-ice-mix-2l.jpg"
-  },
-  {
-    "id": "acai-master-fruto-5l",
-    "name": "Açaí Tradicional Master Fruto — 5 L",
-    "category": "Açaí",
-    "price": 110,
-    "unit": "pote",
-    "icon": "🍧",
-    "desc": "Açaí tradicional Master Fruto em pote de 5 litros."
   },
   {
     "id": "fruta-congelada-acerola",
