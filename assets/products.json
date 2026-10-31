@@ -1069,7 +1069,8 @@
     "price": 195,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Churrasqueira-bafo-botijao.jpg"
   },
   {
     "id": "churrasqueira-bar-2",
@@ -1078,7 +1079,8 @@
     "price": 185,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Churrasqueira-Bar-2-com-grelha.jpg"
   },
   {
     "id": "churrasqueira-bar-3",
@@ -1096,7 +1098,8 @@
     "price": 370,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Churrasqueira-Bar-4-com-grelha.jpg"
   },
   {
     "id": "churrasqueira-espeteira",
@@ -1141,7 +1144,8 @@
     "price": 315,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Churrasqueira-tambor-1-4 —100L-com-grelha.jpg"
   },
   {
     "id": "churrasqueira-tambor-200",
@@ -1150,7 +1154,8 @@
     "price": 350,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Churrasqueira-tambor-1-4—200L-com-grelha.jpg"
   },
   {
     "id": "isopor-alimento-4kg",
@@ -1159,7 +1164,8 @@
     "price": 21,
     "unit": "unidade",
     "icon": "📦",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Caixa-de-isopor-para-alimento—4kg.jpg.jpeg"
   },
   {
     "id": "isopor-alimento-7kg",
@@ -1168,7 +1174,8 @@
     "price": 26,
     "unit": "unidade",
     "icon": "📦",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Caixa-de-isopor-para-alimento—7kg.jpg.jpeg"
   },
   {
     "id": "isopor-alimento-13kg",
@@ -1177,7 +1184,8 @@
     "price": 40,
     "unit": "unidade",
     "icon": "📦",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Caixa-de-isopor-para-alimento—13kg.jpg.jpeg"
   },
   {
     "id": "caixa-termica-5l",
