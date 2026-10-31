@@ -34,7 +34,7 @@
         <h1>Mais refrescância para o seu <span>dia.</span></h1>
         <p>A Águajá Gelajá é uma distribuidora de água e gelo, com marcas de qualidade e variedade de produtos para sua casa, seu comércio e seus melhores momentos.</p>
         <div class="actions">
-          <a class="button" href="#catalogo">Explorar catálogo <span aria-hidden="true">↓</span></a>
+          <a class="button" href="#catalogo" id="explorarCatalogo" aria-expanded="false">Explorar catálogo <span aria-hidden="true">↓</span></a>
           <a class="button button-outline" href="#whatsapp">Falar com a loja</a>
         </div>
       </div>
@@ -141,12 +141,30 @@
 <script>
 (() => {
   const catalog = document.getElementById("catalogo");
+  const explore = document.getElementById("explorarCatalogo");
   if (!catalog) return;
   const syncCatalog = () => {
     catalog.hidden = window.location.hash !== "#catalogo";
+    if (explore) explore.setAttribute("aria-expanded", String(!catalog.hidden));
   };
   syncCatalog();
   window.addEventListener("hashchange", syncCatalog);
+  if (explore) {
+    explore.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (catalog.hidden) {
+        catalog.hidden = false;
+        explore.setAttribute("aria-expanded", "true");
+        window.location.hash = "catalogo";
+        catalog.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        catalog.hidden = true;
+        explore.setAttribute("aria-expanded", "false");
+        history.replaceState(null, "", window.location.pathname + window.location.search);
+        document.getElementById("inicio")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
 })();
 </script>
 </body>
