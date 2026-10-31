@@ -16,7 +16,8 @@
     "price": 4.5,
     "unit": "pacote",
     "icon": "❄️",
-    "desc": "Formato de disco."
+    "desc": "Formato de disco.",
+    "image": "imagens/Gelo-especial—1kg.PNG"
   },
   {
     "id": "gelo-3kg",
@@ -55,7 +56,8 @@
     "price": 12,
     "unit": "unidade",
     "icon": "🧊",
-    "desc": "Barra de gelo de 10 kg."
+    "desc": "Barra de gelo de 10 kg.",
+    "image": "imagens/Gelo-em-barra—10kg.jpg.jpeg"
   },
   {
     "id": "gelo-triturado-25kg",
@@ -857,7 +859,8 @@
     "price": 20,
     "unit": "unidade",
     "icon": "💧",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Bomba-manual-para-galao.jpg"
   },
   {
     "id": "bomba-automatica",
@@ -866,7 +869,8 @@
     "price": 20,
     "unit": "unidade",
     "icon": "💧",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Bomba-automatica-para-galao.jpg"
   },
   {
     "id": "torneira-filtro",
@@ -925,7 +929,8 @@
     "price": 95,
     "unit": "unidade",
     "icon": "🧴",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Garrafa-termica-de-inox—2500ml.jpg.jpeg"
   },
   {
     "id": "garrafa-inox-4",
@@ -934,7 +939,8 @@
     "price": 130,
     "unit": "unidade",
     "icon": "🧴",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Garrafa-termica-de-inox—4L.jpg.jpeg"
   },
   {
     "id": "espuma-drinks",
@@ -973,7 +979,8 @@
     "price": 10,
     "unit": "unidade",
     "icon": "🏊",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Touca-de-natacao.jpg"
   },
   {
     "id": "oculos-natacao",
@@ -982,7 +989,8 @@
     "price": 12,
     "unit": "unidade",
     "icon": "🥽",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Oculos-de-natacao.jpg"
   },
   {
     "id": "cadeira-camping",
@@ -991,7 +999,8 @@
     "price": 35,
     "unit": "unidade",
     "icon": "🪑",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Cadeira-dobravel-para-camping.PNG"
   },
   {
     "id": "colchao-inflavel",
@@ -1000,7 +1009,8 @@
     "price": 120,
     "unit": "unidade",
     "icon": "🛏️",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Colchao-inflavel-de-solteiro.jpg"
   },
   {
     "id": "cooler-6h",
@@ -1009,7 +1019,8 @@
     "price": 22,
     "unit": "unidade",
     "icon": "🧊",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "Caixa-cooler—conservacao-por-ate-6-horas.jpg"
   },
   {
     "id": "copo-americano-caixa",
@@ -1018,7 +1029,8 @@
     "price": 36,
     "unit": "caixa",
     "icon": "🥛",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "Caixa-de-copos-americanos—24-unidades.jpg"
   },
   {
     "id": "grelha-peixe-light",
@@ -1221,7 +1233,8 @@
     "price": null,
     "unit": "sob consulta",
     "icon": "🧊",
-    "desc": "Valores e disponibilidade a combinar."
+    "desc": "Valores e disponibilidade a combinar.",
+    "image": "Caixa-termica-360L—aluguel.jpeg"
   },
   {
     "id": "grelha-galv-30x50",
