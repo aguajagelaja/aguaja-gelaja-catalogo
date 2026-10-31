@@ -1,9 +1,142 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#087fc7"><meta name="description" content="Catálogo digital Águajá Gelajá — água, gelo e polpas em Bataguassu/MS."><title>Águajá Gelajá | Catálogo digital</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=20261031-2"></head>
-<body><div class="topbar">📍 Bataguassu/MS <span>·</span> Disk Entrega: (67) 98143-0628</div>
-<header><div class="wrap nav"><a class="brand" href="#"><span class="logos"><img src="imagens/logo-aguaja.png" alt="Águajá" onerror="this.hidden=true"><img src="imagens/logo-gelaja.png" alt="Gelajá" onerror="this.hidden=true"></span><span>Águajá <b>Gelajá</b><small>Água, gelo e muito mais!</small></span></a><a class="button" href="#catalogo">Ver catálogo ↓</a></div></header>
-<main><section class="hero"><div class="wrap hero-grid"><div><span class="pill">💧 Qualidade e praticidade</span><h1>Mais refrescância para o seu <span>dia.</span></h1><p>A Águajá Gelajá é uma distribuidora de água e gelo em Bataguassu/MS, com marcas de qualidade e variedade de produtos para sua casa, seu comércio e seus melhores momentos. Escolha os produtos e envie seu pedido pelo WhatsApp.</p><div class="actions"><a class="button" href="#catalogo">🛍️ Escolher produtos</a><a class="button light" href="https://wa.me/5567981430628" target="_blank" rel="noopener">💬 Falar com a loja</a></div></div><div class="hero-logo"><img src="imagens/logo-aguaja-gelaja.webp?v=20261031-2" alt="Logo oficial da Águajá Gelajá"><span>Água, gelo e muito mais em Bataguassu/MS</span></div></div></section>
-<section class="section" id="catalogo"><div class="wrap"><div class="heading"><div><h2>Catálogo de produtos</h2><p>Encontre seus produtos e monte o pedido.</p></div><button class="button light" id="openCart">🛒 Meu pedido <span class="count" id="count">0</span></button></div><nav class="tabs" id="tabs" aria-label="Categorias"></nav><nav class="tabs sub-tabs" id="subTabs" aria-label="Modelos e opções" hidden></nav><div class="tools"><input id="search" type="search" placeholder="Buscar produto ou sabor..." aria-label="Buscar produto"><select id="sort" aria-label="Ordenar produtos"><option value="default">Ordem padrão</option><option value="price-up">Menor preço</option><option value="price-down">Maior preço</option><option value="name">Nome A–Z</option></select></div><div class="grid" id="products" aria-live="polite"></div><p class="disclaimer">Preços e disponibilidade sujeitos a confirmação. Taxa de entrega a consultar. Desconto de 5% nas polpas de fruta para pagamentos em dinheiro ou Pix. Desconto na compra de 2 ou mais galões de 20 L: consulte as condições na loja.</p></div></section>
-<section class="section"><div class="wrap banner"><div><h2>Peça com praticidade 💙</h2><p>Envie sua lista pelo WhatsApp. Nossa equipe confirma disponibilidade, entrega e valor final.</p></div><a class="button button-white" href="https://wa.me/5567981430628" target="_blank" rel="noopener">Conversar no WhatsApp ↗</a></div></section></main>
-<footer><div class="wrap footer-grid"><div><strong>Águajá Gelajá</strong><p>Mais qualidade, mais rendimento,<br>mais refrescância!</p></div><div><strong>Contato e entrega</strong><p>R. São José, 210, Jardim São Francisco<br>Bataguassu/MS<br><a href="tel:+5567981430628">(67) 98143-0628</a><br><a href="tel:+556735411720">(67) 3541-1720</a></p></div><div><strong>Redes sociais</strong><p><a href="https://www.instagram.com/aguaja_gelaja/" target="_blank" rel="noopener">@aguaja_gelaja</a></p></div></div><div class="wrap footnote">© <span id="year"></span> Águajá Gelajá · Catálogo digital</div></footer>
-<aside class="cart hidden" id="cart"><div class="cart-head"><h3>Seu pedido</h3><button class="icon-button" id="closeCart" aria-label="Fechar">✕</button></div><div id="cartLines" class="cart-lines"></div><div class="total"><span>Total estimado</span><span id="total">R$ 0,00</span></div><button class="button cart-send" id="send">Enviar pedido pelo WhatsApp ↗</button></aside><script src="assets/app.js?v=20261030-17"></script></body></html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#087fc7">
+<meta name="description" content="Águajá Gelajá — distribuidora de água, gelo e variedade de produtos em Bataguassu/MS.">
+<title>Águajá Gelajá | Água, gelo e muito mais</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css?v=20261031-3">
+</head>
+<body>
+<div class="topbar"><span>📍 Bataguassu/MS</span><span>Disk Entrega: <a href="tel:+5567981430628">(67) 98143-0628</a></span></div>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="Águajá Gelajá — início">
+      <span>Águajá <b>Gelajá</b><small>Água, gelo e muito mais!</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#whatsapp">WhatsApp</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#facebook">Facebook</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">💧 Qualidade e praticidade em Bataguassu/MS</span>
+        <h1>Mais refrescância para o seu <span>dia.</span></h1>
+        <p>A Águajá Gelajá é uma distribuidora de água e gelo, com marcas de qualidade e variedade de produtos para sua casa, seu comércio e seus melhores momentos.</p>
+        <div class="actions">
+          <a class="button" href="#catalogo">Explorar catálogo <span aria-hidden="true">↓</span></a>
+          <a class="button button-outline" href="#whatsapp">Falar com a loja</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="imagens/logo-aguaja-gelaja.webp?v=20261031-2" alt="Logo oficial da Águajá Gelajá">
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="whatsapp">
+    <div class="wrap feature-card whatsapp-card">
+      <div class="section-copy">
+        <span class="section-kicker">ATENDIMENTO DIRETO</span>
+        <h2>WhatsApp</h2>
+        <p>Faça seu pedido com praticidade. Envie sua lista pelo WhatsApp e nossa equipe confirma disponibilidade, entrega e valor final.</p>
+        <div class="actions">
+          <a class="button" href="https://wa.me/5567981430628" target="_blank" rel="noopener">Chamar no WhatsApp ↗</a>
+          <a class="text-link" href="tel:+5567981430628">(67) 98143-0628</a>
+        </div>
+      </div>
+      <div class="contact-symbol" aria-hidden="true">💬</div>
+    </div>
+  </section>
+
+  <section class="section catalog-section" id="catalogo">
+    <div class="wrap">
+      <div class="heading">
+        <div>
+          <span class="section-kicker">NOSSOS PRODUTOS</span>
+          <h2>Catálogo</h2>
+          <p>Explore as categorias, encontre seus produtos e monte o pedido.</p>
+        </div>
+        <button class="button button-outline" id="openCart">🛒 Meu pedido <span class="count" id="count">0</span></button>
+      </div>
+      <nav class="tabs" id="tabs" aria-label="Categorias de produtos"></nav>
+      <nav class="tabs sub-tabs" id="subTabs" aria-label="Modelos e opções" hidden></nav>
+      <div class="tools">
+        <input id="search" type="search" placeholder="Buscar produto ou sabor..." aria-label="Buscar produto">
+        <select id="sort" aria-label="Ordenar produtos">
+          <option value="default">Ordem padrão</option>
+          <option value="price-up">Menor preço</option>
+          <option value="price-down">Maior preço</option>
+          <option value="name">Nome A–Z</option>
+        </select>
+      </div>
+      <div class="grid" id="products" aria-live="polite"></div>
+      <p class="disclaimer">Preços e disponibilidade sujeitos a confirmação. Taxa de entrega a consultar. Desconto de 5% nas polpas de fruta para pagamentos em dinheiro ou Pix. Desconto na compra de 2 ou mais galões de 20 L: consulte as condições na loja.</p>
+    </div>
+  </section>
+
+  <section class="section social-section" id="instagram">
+    <div class="wrap feature-card social-card">
+      <div class="social-symbol instagram-symbol" aria-hidden="true">◎</div>
+      <div class="section-copy">
+        <span class="section-kicker">ACOMPANHE AS NOVIDADES</span>
+        <h2>Instagram</h2>
+        <p>Siga a Águajá Gelajá e fique por dentro das novidades, produtos e ofertas da loja.</p>
+        <a class="button" href="https://www.instagram.com/aguaja_gelaja/" target="_blank" rel="noopener">Visitar @aguaja_gelaja ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section location-section" id="localizacao">
+    <div class="wrap feature-card location-card">
+      <div class="section-copy">
+        <span class="section-kicker">VENHA NOS VISITAR</span>
+        <h2>Localização</h2>
+        <p>R. São José, 210 — Jardim São Francisco<br>Bataguassu/MS</p>
+        <a class="button" href="https://maps.app.goo.gl/HNXY2ADto111G3rm7" target="_blank" rel="noopener">Abrir no Google Maps ↗</a>
+      </div>
+      <div class="location-symbol" aria-hidden="true">📍</div>
+    </div>
+  </section>
+
+  <section class="section social-section" id="facebook">
+    <div class="wrap feature-card social-card facebook-card">
+      <div class="social-symbol facebook-symbol" aria-hidden="true">f</div>
+      <div class="section-copy">
+        <span class="section-kicker">ENCONTRE A GENTE TAMBÉM</span>
+        <h2>Facebook</h2>
+        <p>Acesse o Facebook e encontre a Águajá Gelajá para acompanhar nossas publicações.</p>
+        <a class="button button-outline" href="https://www.facebook.com/search/top?q=AguaJa%20Gelaja" target="_blank" rel="noopener">Pesquisar Águajá Gelajá ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div><strong>Águajá Gelajá</strong><p>Mais qualidade, mais rendimento,<br>mais refrescância!</p></div>
+    <div><strong>Contato</strong><p><a href="tel:+5567981430628">(67) 98143-0628</a><br><a href="tel:+556735411720">(67) 3541-1720</a></p></div>
+    <div><strong>Endereço</strong><p>R. São José, 210, Jardim São Francisco<br>Bataguassu/MS</p></div>
+  </div>
+  <div class="wrap footnote">© <span id="year"></span> Águajá Gelajá · Catálogo digital</div>
+</footer>
+
+<aside class="cart hidden" id="cart" aria-label="Seu pedido">
+  <div class="cart-head"><h3>Seu pedido</h3><button class="icon-button" id="closeCart" aria-label="Fechar">✕</button></div>
+  <div id="cartLines" class="cart-lines"></div>
+  <div class="total"><span>Total estimado</span><span id="total">R$ 0,00</span></div>
+  <button class="button cart-send" id="send">Enviar pedido pelo WhatsApp ↗</button>
+</aside>
+<script src="assets/app.js?v=20261030-17"></script>
+</body>
+</html>
