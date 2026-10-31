@@ -837,7 +837,8 @@
     "price": 450,
     "unit": "sob consulta",
     "icon": null,
-    "desc": "Consulte o preço e a disponibilidade."
+    "desc": "Consulte o preço e a disponibilidade.",
+    "image": "imagens/Piscina-infantil-montavel—1.000L.jpg.jpeg"
   },
   {
     "id": "piscina-metal-1500",
@@ -846,7 +847,8 @@
     "price": 550,
     "unit": "sob consulta",
     "icon": null,
-    "desc": "Consulte o preço e a disponibilidade."
+    "desc": "Consulte o preço e a disponibilidade.",
+    "image": "imagens/Piscina-infantil-montavel—1.500L.jpg.jpeg"
   },
   {
     "id": "bomba-manual",
