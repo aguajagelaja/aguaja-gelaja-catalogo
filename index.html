@@ -59,7 +59,7 @@
     </div>
   </section>
 
-  <section class="section catalog-section" id="catalogo">
+  <section class="section catalog-section" id="catalogo" hidden>
     <div class="wrap">
       <div class="heading">
         <div>
@@ -115,8 +115,8 @@
       <div class="section-copy">
         <span class="section-kicker">ENCONTRE A GENTE TAMBÉM</span>
         <h2>Facebook</h2>
-        <p>Acesse o Facebook e encontre a Águajá Gelajá para acompanhar nossas publicações.</p>
-        <a class="button button-outline" href="https://www.facebook.com/search/top?q=AguaJa%20Gelaja" target="_blank" rel="noopener">Pesquisar Águajá Gelajá ↗</a>
+        <p>Acesse nossa página oficial no Facebook e acompanhe as publicações da Águajá Gelajá.</p>
+        <a class="button button-outline" href="https://www.facebook.com/share/1Gkaachfu8/" target="_blank" rel="noopener">Visitar página no Facebook ↗</a>
       </div>
     </div>
   </section>
@@ -138,5 +138,16 @@
   <button class="button cart-send" id="send">Enviar pedido pelo WhatsApp ↗</button>
 </aside>
 <script src="assets/app.js?v=20261030-17"></script>
+<script>
+(() => {
+  const catalog = document.getElementById("catalogo");
+  if (!catalog) return;
+  const syncCatalog = () => {
+    catalog.hidden = window.location.hash !== "#catalogo";
+  };
+  syncCatalog();
+  window.addEventListener("hashchange", syncCatalog);
+})();
+</script>
 </body>
 </html>
