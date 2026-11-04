@@ -335,3 +335,25 @@ button,input,select{font:inherit}
 .wholesale-prices strong{white-space:nowrap;font-size:1.03rem;color:#fff}
 @media(max-width:760px){.wholesale-banner{grid-template-columns:1fr;padding:25px 21px;gap:20px}.wholesale-prices{grid-template-columns:1fr 1fr}.wholesale-prices div{padding:11px 10px}.wholesale-prices b{font-size:.75rem}.wholesale-prices strong{font-size:.94rem}}
 @media(max-width:390px){.wholesale-prices{grid-template-columns:1fr}.wholesale-prices div:last-child{grid-column:auto}}
+
+
+/* Refinamento visual — condições especiais de atacado */
+.wholesale-section{padding:8px 0 42px;background:linear-gradient(180deg,#f3faff 0%,#fff 100%)}
+.wholesale-banner{grid-template-columns:minmax(0,.92fr) minmax(360px,1.08fr);gap:42px;padding:38px 40px;border:1px solid #d8e8f1;border-radius:20px;background:linear-gradient(125deg,#082b4b 0%,#0b3e66 58%,#10577d 100%);box-shadow:0 16px 38px rgba(8,45,82,.11)}
+.wholesale-banner:after{width:380px;height:380px;right:-160px;top:-230px;opacity:.65}
+.wholesale-kicker{margin-bottom:13px;color:#9de8f5;font-size:.65rem;letter-spacing:.16em}
+.wholesale-copy h2{max-width:490px;margin:0 0 14px;font-size:clamp(1.75rem,3vw,2.45rem);line-height:1.12;letter-spacing:-.045em}
+.wholesale-copy h2 span{display:block;color:#9de8f5}
+.wholesale-copy p{max-width:490px;margin:0;color:#dcebf4;font-size:.88rem;line-height:1.75}
+.wholesale-note{display:flex;align-items:flex-start;gap:10px;margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,.16);color:#c8e2ee;font-size:.75rem;line-height:1.55}
+.wholesale-note>span:first-child{display:grid;place-items:center;flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:rgba(113,221,206,.16);color:#8de8d7;font-weight:900}
+.wholesale-price-panel{position:relative;z-index:1;padding:17px;border:1px solid rgba(255,255,255,.18);border-radius:15px;background:rgba(255,255,255,.08);backdrop-filter:blur(8px)}
+.wholesale-table-heading{display:flex;justify-content:space-between;gap:12px;padding:0 13px 10px;color:#a9cadb;font-size:.59rem;font-weight:900;letter-spacing:.13em}
+.wholesale-prices{display:flex;flex-direction:column;gap:0;border-radius:10px;overflow:hidden;background:#fff}
+.wholesale-prices div,.wholesale-prices div:last-child{grid-column:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border:0;border-bottom:1px solid #e9f0f4;border-radius:0;background:#fff}
+.wholesale-prices div:last-child{border-bottom:0}
+.wholesale-prices b{color:#24445b;font-size:.79rem;font-weight:750}
+.wholesale-prices strong{color:#0877ad;font-size:1rem;font-weight:900}
+.wholesale-exclusion{margin:11px 2px 0;color:#c8dce7;font-size:.66rem;line-height:1.5}
+@media(max-width:820px){.wholesale-banner{grid-template-columns:1fr;gap:25px;padding:28px 24px}.wholesale-copy h2 span{display:inline}.wholesale-price-panel{padding:13px}}
+@media(max-width:420px){.wholesale-banner{padding:24px 17px}.wholesale-table-heading{font-size:.53rem}.wholesale-prices div,.wholesale-prices div:last-child{padding:11px 10px}.wholesale-prices b{font-size:.72rem}.wholesale-prices strong{font-size:.93rem}}
