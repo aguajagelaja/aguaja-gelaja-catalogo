@@ -250,27 +250,6 @@
     "image": "imagens/foto-aguas-galao-agua-mineral-4-fontes-10l.jpg"
   },
   {
-    "id": "coco-leve-unit",
-    "name": "Gelo saborizado Coco Leve — unidade",
-    "category": "Gelos Saborizados",
-    "price": 4,
-    "unit": "Unidade",
-    "icon": "🧊",
-    "desc": "Sabores: Coco, Melancia, Maracujá, Maçã Verde, Limão, Beats Senses, Beats Red Mix, Beats GT.",
-    "brand": "Coco Leve",
-    "flavors": [
-      "Coco",
-      "Melancia",
-      "Maracujá",
-      "Maçã Verde",
-      "Limão",
-      "Beats Senses",
-      "Beats Red Mix",
-      "Beats GT"
-    ],
-    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-leve.jpg"
-  },
-  {
     "id": "coco-leve-box30",
     "name": "Gelo saborizado Coco Leve — caixa com 30",
     "category": "Gelos Saborizados",
@@ -293,12 +272,12 @@
   },
   {
     "id": "coco-leve-mix",
-    "name": "Gelo saborizado Coco Leve — caixa sortida",
+    "name": "Gelo saborizado Coco Leve — caixa sortida com 30 unidades",
     "category": "Gelos Saborizados",
     "price": 75,
-    "unit": "Caixa sortida",
+    "unit": "Caixa sortida com 30 unidades",
     "icon": "📦",
-    "desc": "Caixa sortida com sabores variados.",
+    "desc": "Caixa com 30 unidades sortidas, com sabores variados.",
     "brand": "Coco Leve",
     "flavors": [
       "Coco",
@@ -311,26 +290,6 @@
       "Beats GT"
     ],
     "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-leve.jpg"
-  },
-  {
-    "id": "coco-fresh-unit",
-    "name": "Gelo saborizado Coco Fresh — unidade",
-    "category": "Gelos Saborizados",
-    "price": 3,
-    "unit": "Unidade",
-    "icon": "🧊",
-    "desc": "Sabores: Coco, Maracujá, Morango, Maçã Verde, Melancia, Energético, Limão.",
-    "brand": "Coco Fresh",
-    "flavors": [
-      "Coco",
-      "Maracujá",
-      "Morango",
-      "Maçã Verde",
-      "Melancia",
-      "Energético",
-      "Limão"
-    ],
-    "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-fresh.jpg"
   },
   {
     "id": "coco-fresh-box30",
@@ -354,12 +313,12 @@
   },
   {
     "id": "coco-fresh-mix",
-    "name": "Gelo saborizado Coco Fresh — caixa sortida",
+    "name": "Gelo saborizado Coco Fresh — caixa sortida com 30 unidades",
     "category": "Gelos Saborizados",
     "price": 69,
-    "unit": "Caixa sortida",
+    "unit": "Caixa sortida com 30 unidades",
     "icon": "📦",
-    "desc": "Caixa sortida com sabores variados.",
+    "desc": "Caixa com 30 unidades sortidas, com sabores variados.",
     "brand": "Coco Fresh",
     "flavors": [
       "Coco",
