@@ -340,7 +340,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de abacaxi. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Abacaxi",
-    "image": "imagens/polpa-abacaxi-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Abacaxi-pacote-com10.jpg"
   },
   {
     "id": "polpa-pack-2",
@@ -348,7 +348,7 @@
     "category": "Polpas de frutas",
     "price": 21.5,
     "unit": "Pacote com 10 unidades de 100 g",
-    "image": "imagens/polpa-abacaxi-com-hortela-pacote.jpg",
+    "image": "imagens/Polpa-de-fruta-Abacaxi-com-Hortela-pacote-com-10.jpg",
     "desc": "Pacote com 10 polpas de abacaxi com hortelã. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Abacaxi com Hortelã"
   },
@@ -361,7 +361,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de acerola. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Acerola",
-    "image": "imagens/polpa-acerola-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Acerola-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-4",
@@ -372,7 +372,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de acerola com laranja. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Acerola com Laranja",
-    "image": "imagens/polpa-acerola-com-laranja-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Acerola-com-laranja-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-5",
@@ -383,7 +383,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de açaí. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Açaí",
-    "image": "imagens/polpa-acai-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Acai-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-6",
@@ -394,7 +394,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de caju. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Caju",
-    "image": "imagens/polpa-caju-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Caju-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-7",
@@ -405,7 +405,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de clorofila. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Clorofila",
-    "image": "imagens/polpa-clorofila-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Clorofila-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-8",
@@ -416,7 +416,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de coco verde. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Coco Verde",
-    "image": "imagens/polpa-coco-verde-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Coco-Verde-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-9",
@@ -427,7 +427,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de cupuaçu. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Cupuaçu",
-    "image": "imagens/polpa-cupuacu-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Cupuacu-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-10",
@@ -438,7 +438,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de detox. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Detox",
-    "image": "imagens/polpa-detox-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Detox-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-11",
@@ -449,7 +449,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de frutas vermelhas. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Frutas Vermelhas",
-    "image": "imagens/polpa-frutas-vermelhas-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Frutas-Vermelhas-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-12",
@@ -460,7 +460,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de goiaba. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Goiaba",
-    "image": "imagens/polpa-goiaba-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Goiaba-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-13",
@@ -471,7 +471,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de graviola. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Graviola",
-    "image": "imagens/polpa-graviola-pacote.jpg"
+    "image": "imagens/Polpa-de-Fruta-Graviola-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-14",
@@ -482,7 +482,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de laranja. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Laranja",
-    "image": "imagens/polpa-laranja-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Laranja-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-15",
@@ -493,7 +493,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de limão. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Limão",
-    "image": "imagens/polpa-limao-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Limao-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-16",
@@ -504,7 +504,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de manga. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Manga",
-    "image": "imagens/polpa-manga-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Manga-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-17",
@@ -515,7 +515,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de maracujá. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Maracujá",
-    "image": "imagens/polpa-maracuja-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Maracuja-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-18",
@@ -526,7 +526,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de melão. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Melão",
-    "image": "imagens/polpa-melao-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Melao-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-19",
@@ -537,7 +537,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de morango. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Morango",
-    "image": "imagens/polpa-morango-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Morango-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-20",
@@ -548,7 +548,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de tamarindo. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Tamarindo",
-    "image": "imagens/polpa-tamarindo-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Tamarindo-pacote-com-10.jpg"
   },
   {
     "id": "polpa-pack-21",
@@ -559,7 +559,7 @@
     "icon": "🍓",
     "desc": "Pacote com 10 polpas de uva. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Uva",
-    "image": "imagens/polpa-uva-pacote.jpg"
+    "image": "imagens/Polpa-de-fruta-Uva-pacote-com-10.jpg"
   },
   {
     "id": "piscina-metal-1000",
