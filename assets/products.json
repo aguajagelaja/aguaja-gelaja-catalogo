@@ -332,16 +332,6 @@
     "image": "imagens/foto-gelos-saborizados-sabores-gelos-saborizados-coco-fresh.jpg"
   },
   {
-    "id": "polpa-unit-1",
-    "name": "Polpa de fruta — Abacaxi (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.7,
-    "unit": "Unidade de 100 g",
-    "image": "imagens/polpa-abacaxi-unidade.jpg",
-    "desc": "Polpa de abacaxi, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Abacaxi"
-  },
-  {
     "id": "polpa-pack-1",
     "name": "Polpa de fruta — Abacaxi (pacote com 10)",
     "category": "Polpas de frutas",
@@ -353,17 +343,6 @@
     "image": "imagens/polpa-abacaxi-pacote.jpg"
   },
   {
-    "id": "polpa-unit-2",
-    "name": "Polpa de fruta — Abacaxi com Hortelã (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.8,
-    "unit": "Unidade de 100 g",
-    "icon": "imagens/polpa-abacaxi-com-hortela-unidade.jpg",
-    "desc": "Polpa de abacaxi com hortelã, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Abacaxi com Hortelã",
-    "image": "imagens/polpa-abacaxi-com-hortela-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-2",
     "name": "Polpa de fruta — Abacaxi com Hortelã (pacote com 10)",
     "category": "Polpas de frutas",
@@ -372,17 +351,6 @@
     "image": "imagens/polpa-abacaxi-com-hortela-pacote.jpg",
     "desc": "Pacote com 10 polpas de abacaxi com hortelã. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Abacaxi com Hortelã"
-  },
-  {
-    "id": "polpa-unit-3",
-    "name": "Polpa de fruta — Acerola (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.4,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de acerola, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Acerola",
-    "image": "imagens/polpa-acerola-unidade.jpg"
   },
   {
     "id": "polpa-pack-3",
@@ -396,17 +364,6 @@
     "image": "imagens/polpa-acerola-pacote.jpg"
   },
   {
-    "id": "polpa-unit-4",
-    "name": "Polpa de fruta — Acerola com Laranja (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.95,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de acerola com laranja, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Acerola com Laranja",
-    "image": "imagens/polpa-acerola-laranja-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-4",
     "name": "Polpa de fruta — Acerola com Laranja (pacote com 10)",
     "category": "Polpas de frutas",
@@ -416,17 +373,6 @@
     "desc": "Pacote com 10 polpas de acerola com laranja. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Acerola com Laranja",
     "image": "imagens/polpa-acerola-com-laranja-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-5",
-    "name": "Polpa de fruta — Açaí (100 g)",
-    "category": "Polpas de frutas",
-    "price": 5.2,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de açaí, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Açaí",
-    "image": "imagens/polpa-acai-unidade.jpg"
   },
   {
     "id": "polpa-pack-5",
@@ -440,17 +386,6 @@
     "image": "imagens/polpa-acai-pacote.jpg"
   },
   {
-    "id": "polpa-unit-6",
-    "name": "Polpa de fruta — Caju (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.6,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de caju, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Caju",
-    "image": "imagens/polpa-caju-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-6",
     "name": "Polpa de fruta — Caju (pacote com 10)",
     "category": "Polpas de frutas",
@@ -460,17 +395,6 @@
     "desc": "Pacote com 10 polpas de caju. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Caju",
     "image": "imagens/polpa-caju-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-7",
-    "name": "Polpa de fruta — Clorofila (100 g)",
-    "category": "Polpas de frutas",
-    "price": 4.55,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de clorofila, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Clorofila",
-    "image": "imagens/polpa-clorofila-unidade.jpg"
   },
   {
     "id": "polpa-pack-7",
@@ -484,17 +408,6 @@
     "image": "imagens/polpa-clorofila-pacote.jpg"
   },
   {
-    "id": "polpa-unit-8",
-    "name": "Polpa de fruta — Coco Verde (100 g)",
-    "category": "Polpas de frutas",
-    "price": 3.3,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de coco verde, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Coco Verde",
-    "image": "imagens/polpa-coco-verde-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-8",
     "name": "Polpa de fruta — Coco Verde (pacote com 10)",
     "category": "Polpas de frutas",
@@ -504,17 +417,6 @@
     "desc": "Pacote com 10 polpas de coco verde. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Coco Verde",
     "image": "imagens/polpa-coco-verde-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-9",
-    "name": "Polpa de fruta — Cupuaçu (100 g)",
-    "category": "Polpas de frutas",
-    "price": 3,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de cupuaçu, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Cupuaçu",
-    "image": "imagens/polpa-cupuacu-unidade.jpg"
   },
   {
     "id": "polpa-pack-9",
@@ -528,17 +430,6 @@
     "image": "imagens/polpa-cupuacu-pacote.jpg"
   },
   {
-    "id": "polpa-unit-10",
-    "name": "Polpa de fruta — Detox (100 g)",
-    "category": "Polpas de frutas",
-    "price": 3,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de detox, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Detox",
-    "image": "imagens/polpa-detox-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-10",
     "name": "Polpa de fruta — Detox (pacote com 10)",
     "category": "Polpas de frutas",
@@ -548,17 +439,6 @@
     "desc": "Pacote com 10 polpas de detox. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Detox",
     "image": "imagens/polpa-detox-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-11",
-    "name": "Polpa de fruta — Frutas Vermelhas (100 g)",
-    "category": "Polpas de frutas",
-    "price": 5.5,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de frutas vermelhas, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Frutas Vermelhas",
-    "image": "imagens/polpa-frutas-vermelhas-unidade.jpg"
   },
   {
     "id": "polpa-pack-11",
@@ -572,17 +452,6 @@
     "image": "imagens/polpa-frutas-vermelhas-pacote.jpg"
   },
   {
-    "id": "polpa-unit-12",
-    "name": "Polpa de fruta — Goiaba (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.2,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de goiaba, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Goiaba",
-    "image": "imagens/polpa-goiaba-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-12",
     "name": "Polpa de fruta — Goiaba (pacote com 10)",
     "category": "Polpas de frutas",
@@ -592,17 +461,6 @@
     "desc": "Pacote com 10 polpas de goiaba. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Goiaba",
     "image": "imagens/polpa-goiaba-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-13",
-    "name": "Polpa de fruta — Graviola (100 g)",
-    "category": "Polpas de frutas",
-    "price": 3.1,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de graviola, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Graviola",
-    "image": "imagens/polpa-graviola-unidade.jpg"
   },
   {
     "id": "polpa-pack-13",
@@ -616,17 +474,6 @@
     "image": "imagens/polpa-graviola-pacote.jpg"
   },
   {
-    "id": "polpa-unit-14",
-    "name": "Polpa de fruta — Laranja (100 g)",
-    "category": "Polpas de frutas",
-    "price": 3.5,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de laranja, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Laranja",
-    "image": "imagens/polpa-laranja-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-14",
     "name": "Polpa de fruta — Laranja (pacote com 10)",
     "category": "Polpas de frutas",
@@ -636,17 +483,6 @@
     "desc": "Pacote com 10 polpas de laranja. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Laranja",
     "image": "imagens/polpa-laranja-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-15",
-    "name": "Polpa de fruta — Limão (100 g)",
-    "category": "Polpas de frutas",
-    "price": 1.75,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de limão, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Limão",
-    "image": "imagens/polpa-limao-unidade.jpg"
   },
   {
     "id": "polpa-pack-15",
@@ -660,17 +496,6 @@
     "image": "imagens/polpa-limao-pacote.jpg"
   },
   {
-    "id": "polpa-unit-16",
-    "name": "Polpa de fruta — Manga (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.15,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de manga, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Manga",
-    "image": "imagens/polpa-manga-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-16",
     "name": "Polpa de fruta — Manga (pacote com 10)",
     "category": "Polpas de frutas",
@@ -680,17 +505,6 @@
     "desc": "Pacote com 10 polpas de manga. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Manga",
     "image": "imagens/polpa-manga-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-17",
-    "name": "Polpa de fruta — Maracujá (100 g)",
-    "category": "Polpas de frutas",
-    "price": 4.7,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de maracujá, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Maracujá",
-    "image": "imagens/polpa-maracuja-unidade.jpg"
   },
   {
     "id": "polpa-pack-17",
@@ -704,17 +518,6 @@
     "image": "imagens/polpa-maracuja-pacote.jpg"
   },
   {
-    "id": "polpa-unit-18",
-    "name": "Polpa de fruta — Melão (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.9,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de melão, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Melão",
-    "image": "imagens/polpa-melao-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-18",
     "name": "Polpa de fruta — Melão (pacote com 10)",
     "category": "Polpas de frutas",
@@ -724,17 +527,6 @@
     "desc": "Pacote com 10 polpas de melão. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Melão",
     "image": "imagens/polpa-melao-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-19",
-    "name": "Polpa de fruta — Morango (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.8,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de morango, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Morango",
-    "image": "imagens/polpa-morango-unidade.jpg"
   },
   {
     "id": "polpa-pack-19",
@@ -748,17 +540,6 @@
     "image": "imagens/polpa-morango-pacote.jpg"
   },
   {
-    "id": "polpa-unit-20",
-    "name": "Polpa de fruta — Tamarindo (100 g)",
-    "category": "Polpas de frutas",
-    "price": 3,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de tamarindo, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Tamarindo",
-    "image": "imagens/polpa-tamarindo-unidade.jpg"
-  },
-  {
     "id": "polpa-pack-20",
     "name": "Polpa de fruta — Tamarindo (pacote com 10)",
     "category": "Polpas de frutas",
@@ -768,17 +549,6 @@
     "desc": "Pacote com 10 polpas de tamarindo. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
     "flavor": "Tamarindo",
     "image": "imagens/polpa-tamarindo-pacote.jpg"
-  },
-  {
-    "id": "polpa-unit-21",
-    "name": "Polpa de fruta — Uva (100 g)",
-    "category": "Polpas de frutas",
-    "price": 2.7,
-    "unit": "Unidade de 100 g",
-    "icon": "🍓",
-    "desc": "Polpa de uva, 100 g. Desconto de 5% para pagamento à vista em dinheiro ou Pix.",
-    "flavor": "Uva",
-    "image": "imagens/polpa-uva-unidade.jpg"
   },
   {
     "id": "polpa-pack-21",
