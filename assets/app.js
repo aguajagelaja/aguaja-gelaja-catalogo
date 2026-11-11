@@ -15,7 +15,36 @@ function renderSubTabs(){
  $("subTabs").hidden=!groups.length;
 }
 function renderProducts(){let q=$("search").value.toLocaleLowerCase("pt-BR").trim();let arr=allProducts.filter(p=>(activeCategory==="Todos"||p.category===activeCategory)&&(activeGroup==="Todos"||p.group===activeGroup)&&(p.name+" "+p.category+" "+p.desc+" "+(p.flavors||[]).join(" ")).toLocaleLowerCase("pt-BR").includes(q));let sort=$("sort").value;if(sort==="price-up")arr.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));if(sort==="price-down")arr.sort((a,b)=>(b.price??-Infinity)-(a.price??-Infinity));if(sort==="name")arr.sort((a,b)=>a.name.localeCompare(b.name,"pt-BR"));$("products").innerHTML=arr.length?arr.map(p=>`<article class="card"><div class="photo">${p.image ? '<img src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy" >' : esc(p.icon||"🛍️")}</div><span class="tag">${esc(p.category)}</span><h3>${esc(p.name)}</h3><p>${esc(p.desc)}</p><div class="price">${p.price==null?"Consulte":money(p.price)}</div><div class="unit">${esc(p.unit)}</div>${p.price==null?`<button class="add" data-quote="${esc(p.id)}">Consultar no WhatsApp</button>`:`<button class="add" data-add="${esc(p.id)}">＋ Adicionar ao pedido</button>`}</article>`).join(""):'<p class="empty">Nenhum produto encontrado.</p>';document.querySelectorAll("[data-cat]").forEach(b=>b.classList.toggle("active",b.dataset.cat===activeCategory));document.querySelectorAll("[data-group]").forEach(b=>b.classList.toggle("active",b.dataset.group===activeGroup));}
-function renderCart(){let arr=allProducts.filter(p=>bag[p.id]);$("count").textContent=Object.values(bag).reduce((a,b)=>a+b,0);$("cartLines").innerHTML=arr.length?arr.map(p=>{let qty=bag[p.id],price=unitPrice(p,qty);return `<div class="line"><span>${esc(p.name)}<br><b>${money(price*qty)}</b><br><small>${qty} un. × ${money(price)} · ${esc(p.unit)}</small></span><span class="qty"><button data-minus="${esc(p.id)}" aria-label="Diminuir">−</button>${qty}<button data-plus="${esc(p.id)}" aria-label="Aumentar">＋</button></span></div>`}).join(""):'<p style="color:#637b91">Seu pedido está vazio.</p>';$("total").textContent=money(arr.reduce((s,p)=>s+unitPrice(p,bag[p.id])*bag[p.id],0))}
+function renderCart(){let arr=allProducts.filter(p=>bag[p.id]);$("count").textContent=Object.values(bag).reduce((a,b)=>a+b,0);$("cartLines").innerHTML=arr.length?arr.map(p=>{let qty=bag[p.id],price=unitPrice(p,qty);return `<div class="line"><span>${esc(p.name)}<br><b>${money(price*qty)}</b><br><small>${qty} un. × ${money(price)} · ${esc(p.unit)}</small></span><span class="qty"><button data-minus="${esc(p.id)}" aria-label="Diminuir">−</button>${qty}<button data-plus="${esc(p.id)}" aria-label="Aumentar">＋</button></span></div>`}).join(""):'<p class="cart-empty">Seu pedido está vazio.</p>';$("total").textContent=money(arr.reduce((s,p)=>s+unitPrice(p,bag[p.id])*bag[p.id],0))}
 document.addEventListener("click",e=>{let cat=e.target.closest("[data-cat]"),group=e.target.closest("[data-group]");if(cat){activeCategory=cat.dataset.cat;activeGroup="Todos";renderSubTabs();renderProducts()}if(group){activeGroup=group.dataset.group;renderProducts()}let add=e.target.closest("[data-add]"),plus=e.target.closest("[data-plus]"),minus=e.target.closest("[data-minus]"),quote=e.target.closest("[data-quote]");if(quote){let p=allProducts.find(x=>x.id===quote.dataset.quote);let msg="Olá, Águajá Gelajá! Gostaria de consultar preço e disponibilidade: "+(p?.name||"produto do catálogo");if(p?.flavors?.length)msg+="\n\nSabores de interesse: "+p.flavors.join(", ");window.open("https://wa.me/5567981430628?text="+encodeURIComponent(msg)," _blank".trim(),"noopener")}if(add){let id=add.dataset.add;bag[id]=(bag[id]||0)+1;$("cart").classList.remove("hidden");renderCart()}if(plus){let id=plus.dataset.plus;bag[id]=(bag[id]||0)+1;renderCart()}if(minus){let id=minus.dataset.minus;bag[id]--;if(bag[id]<=0)delete bag[id];renderCart()}});
 $("search").addEventListener("input",renderProducts);$("sort").addEventListener("change",renderProducts);$("openCart").addEventListener("click",()=>$("cart").classList.toggle("hidden"));$("closeCart").addEventListener("click",()=>$("cart").classList.add("hidden"));$("year").textContent=new Date().getFullYear();
 $("send").addEventListener("click",()=>{let arr=allProducts.filter(p=>bag[p.id]);if(!arr.length){alert("Adicione ao menos um produto ao pedido.");return}let total=arr.reduce((s,p)=>s+unitPrice(p,bag[p.id])*bag[p.id],0);let lines=arr.map(p=>{let qty=bag[p.id],price=unitPrice(p,qty);return `- ${esc(p.name)} (${esc(p.unit)}) | Quantidade: ${qty} | Unitário: ${money(price)} | ${money(price*qty)}`}).join("\n");let msg="Olá, Águajá Gelajá! Gostaria de fazer este pedido:\n\n"+lines+"\n\nTotal estimado: "+money(total)+"\n\nPodem confirmar a disponibilidade, a taxa de entrega e o valor final, por favor?";window.open("https://wa.me/5567981430628?text="+encodeURIComponent(msg),"_blank","noopener")});
+
+/* Controle de abertura e fechamento do catálogo. */
+(() => {
+  const catalog = document.getElementById("catalogo");
+  const explore = document.getElementById("explorarCatalogo");
+  if (!catalog) return;
+  const syncCatalog = () => {
+    catalog.hidden = window.location.hash !== "#catalogo";
+    if (explore) explore.setAttribute("aria-expanded", String(!catalog.hidden));
+  };
+  syncCatalog();
+  window.addEventListener("hashchange", syncCatalog);
+  if (explore) {
+    explore.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (catalog.hidden) {
+        catalog.hidden = false;
+        explore.setAttribute("aria-expanded", "true");
+        window.location.hash = "catalogo";
+        catalog.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        catalog.hidden = true;
+        explore.setAttribute("aria-expanded", "false");
+        history.replaceState(null, "", window.location.pathname + window.location.search);
+        document.getElementById("inicio")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
+})();
