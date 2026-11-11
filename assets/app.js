@@ -7,7 +7,7 @@ function buildTabs(){
  const categories=["Todos",...new Set(allProducts.map(p=>p.category).filter(Boolean))];
  $("tabs").innerHTML=categories.map(cat=>{
   const total=cat==="Todos"?allProducts.length:allProducts.filter(p=>p.category===cat).length;
-  return '<button type="button" class="tab category-tab" data-cat="'+esc(cat)+'" aria-pressed="'+String(cat===activeCategory)+'"><span class="tab-label">'+esc(cat)+'</span><span class="tab-count">'+total+'</span></button>';
+  return '<button type="button" class="tab category-tab" data-cat="'+esc(cat)+'" aria-label="'+esc(cat)+', '+total+' produtos" aria-pressed="'+String(cat===activeCategory)+'"><span class="tab-label">'+esc(cat)+'</span><span class="tab-count" aria-hidden="true">'+total+'</span></button>';
  }).join("");
  $("tabs").hidden=false;
  renderSubTabs();
@@ -16,7 +16,7 @@ function renderSubTabs(){
  const groups=activeCategory==="Todos"?[]:[...new Set(allProducts.filter(p=>p.category===activeCategory).map(p=>p.group).filter(Boolean))];
  $("subTabs").innerHTML=groups.length?['Todos',...groups].map(group=>{
   const total=group==="Todos"?allProducts.filter(p=>p.category===activeCategory).length:allProducts.filter(p=>p.category===activeCategory&&p.group===group).length;
-  return '<button type="button" class="tab sub-tab" data-group="'+esc(group)+'" aria-pressed="'+String(group===activeGroup)+'"><span class="tab-label">'+esc(group==="Todos"?"Todas as opções":group)+'</span><span class="tab-count">'+total+'</span></button>';
+  return '<button type="button" class="tab sub-tab" data-group="'+esc(group)+'" aria-label="'+esc(group==="Todos"?"Todas as opções":group)+', '+total+' produtos" aria-pressed="'+String(group===activeGroup)+'"><span class="tab-label">'+esc(group==="Todos"?"Todas as opções":group)+'</span><span class="tab-count" aria-hidden="true">'+total+'</span></button>';
  }).join(""):"";
  $("subTabs").hidden=!groups.length;
 }
