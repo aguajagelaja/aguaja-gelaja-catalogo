@@ -2,12 +2,13 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests;">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#082d52">
 <meta name="description" content="Águajá Gelajá — distribuidora de água, gelo e variedade de produtos em Bataguassu/MS. Confira o catálogo e fale com a loja.">
 <title>Águajá Gelajá | Água, gelo e muito mais</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/style.css?v=20261031-5">
+<link rel="stylesheet" href="assets/style.css?v=20261111-csp">
 </head>
 <body>
 <div class="topbar">
@@ -202,35 +203,7 @@
   <div class="total"><span>Total estimado</span><span id="total">R$ 0,00</span></div>
   <button class="button cart-send" id="send">Enviar pedido pelo WhatsApp ↗</button>
 </aside>
-<script src="assets/app.js?v=20261110-polpas-pacote"></script>
-<script>
-(() => {
-  const catalog = document.getElementById("catalogo");
-  const explore = document.getElementById("explorarCatalogo");
-  if (!catalog) return;
-  const syncCatalog = () => {
-    catalog.hidden = window.location.hash !== "#catalogo";
-    if (explore) explore.setAttribute("aria-expanded", String(!catalog.hidden));
-  };
-  syncCatalog();
-  window.addEventListener("hashchange", syncCatalog);
-  if (explore) {
-    explore.addEventListener("click", (event) => {
-      event.preventDefault();
-      if (catalog.hidden) {
-        catalog.hidden = false;
-        explore.setAttribute("aria-expanded", "true");
-        window.location.hash = "catalogo";
-        catalog.scrollIntoView({ behavior: "smooth", block: "start" });
-      } else {
-        catalog.hidden = true;
-        explore.setAttribute("aria-expanded", "false");
-        history.replaceState(null, "", window.location.pathname + window.location.search);
-        document.getElementById("inicio")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
-  }
-})();
-</script>
+<script src="assets/app.js?v=20261111-csp"></script>
+
 </body>
 </html>
