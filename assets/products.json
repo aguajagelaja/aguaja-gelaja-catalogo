@@ -1042,29 +1042,31 @@
     "id": "carvao-eucalipto-5kg",
     "name": "Carvão de eucalipto — 5 kg",
     "category": "Churrasco",
-    "price": 23,
+    "price": 25,
     "unit": "saco",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Carvao-de-eucalipto-5kg.jpg"
   },
   {
     "id": "carvao-eucalipto-7kg",
     "name": "Carvão de eucalipto — 7 kg",
     "category": "Churrasco",
-    "price": 30,
+    "price": 32,
     "unit": "saco",
     "icon": "🔥",
     "desc": "Consulte a loja para mais informações.",
-    "image": "imagens/Carvão-de-eucalipto—7kg.jpg"
+    "image": "imagens/Carvao-de-eucalipto-7kg.jpg"
   },
   {
     "id": "carvao-eucalipto-10kg",
     "name": "Carvão de eucalipto — 10 kg",
     "category": "Churrasco",
-    "price": 38,
+    "price": 40,
     "unit": "saco",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Carvao-de-eucalipto-10kg.jpg"
   },
   {
     "id": "filtro-barro-4l",
