@@ -375,3 +375,6 @@ button,input,select{font:inherit}
 .wholesale-contact-link:hover{background:#e8f7fc;transform:translateY(-1px)}
 @media(max-width:820px){.wholesale-banner{grid-template-columns:1fr;gap:23px;padding:28px 24px}.wholesale-copy h2 span{display:inline}}
 @media(max-width:420px){.wholesale-banner{padding:24px 18px}.wholesale-contact-card{padding:20px}.wholesale-contact-card>strong{font-size:1.4rem}}
+
+/* Mensagem exibida quando o carrinho está vazio. */
+.cart-empty{color:#637b91}
