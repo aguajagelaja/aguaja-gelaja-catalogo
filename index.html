@@ -8,7 +8,7 @@
 <meta name="description" content="Águajá Gelajá — distribuidora de água, gelo e variedade de produtos em Bataguassu/MS. Confira o catálogo e fale com a loja.">
 <title>Águajá Gelajá | Água, gelo e muito mais</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/style.css?v=20261111-tabs">
+<link rel="stylesheet" href="assets/style.css?v=20261111-navpro">
 </head>
 <body>
 <div class="topbar">
@@ -121,8 +121,14 @@
       </div>
       <div class="catalog-workspace">
         <div class="catalog-controls">
-          <div class="tabs" id="tabs" aria-label="Categorias do catálogo"></div>
-          <div class="tabs sub-tabs" id="subTabs" aria-label="Subcategorias do catálogo"></div>
+          <div class="category-navigation">
+            <div class="category-tabs-heading">Categorias <span class="category-tabs-help">Deslize para ver todas</span></div>
+            <div class="tabs" id="tabs" role="group" aria-label="Categorias do catálogo"></div>
+          </div>
+          <div class="subcategory-navigation">
+            <div class="subcategory-heading">Refinar por</div>
+            <div class="tabs sub-tabs" id="subTabs" role="group" aria-label="Subcategorias do catálogo"></div>
+          </div>
           <div class="tools">
             <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar produto ou sabor..." aria-label="Buscar produto"></label>
             <label class="sort-wrap"><span class="sr-only">Ordenar produtos</span><select id="sort" aria-label="Ordenar produtos"><option value="default">Ordem padrão</option><option value="price-up">Menor preço</option><option value="price-down">Maior preço</option><option value="name">Nome A–Z</option></select></label>
