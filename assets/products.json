@@ -864,7 +864,8 @@
     "price": 299,
     "unit": "unidade",
     "icon": "🔥",
-    "desc": "Consulte a loja para mais informações."
+    "desc": "Consulte a loja para mais informações.",
+    "image": "imagens/Churrasqueira-Emporio-com-grelha.jpg"
   },
   {
     "id": "churrasqueira-tambor-100",
@@ -1345,7 +1346,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Modelo infantil tema Fundo do Mar.",
-    "group": "Fundo do Mar"
+    "group": "Fundo do Mar",
+    "image": "imagens/Boia-infantil-Fundo-do-Mar.jpg"
   },
   {
     "id": "boia-infantil-bichinho",
@@ -1355,7 +1357,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Boia infantil modelo bichinho.",
-    "group": "Bichinho"
+    "group": "Bichinho",
+    "image": "imagens/Boia-infantil-Bichinho.jpg"
   },
   {
     "id": "colete-inflavel-infantil",
@@ -1365,7 +1368,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Colete inflável para crianças.",
-    "group": "Colete infantil"
+    "group": "Colete infantil",
+    "image": "imagens/Colete-inflavel-infantil.jpg"
   },
   {
     "id": "porta-copo-nuvem",
@@ -1805,7 +1809,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Boia circular Mickey Mouse. 56 cm; peso máximo 30 kg; indicada para maiores de 3 anos; composição: 100% PVC.",
-    "group": "Boias circulares"
+    "group": "Boias circulares",
+    "image": "imagens/Boia-Circular-Mickey-Mouse—56cm.jpg"
   },
   {
     "id": "boia-circular-oceano-fun",
@@ -1815,7 +1820,8 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Boia circular Oceano Fun. 50 cm; indicada para maiores de 3 anos; composição: 100% PVC.",
-    "group": "Boias circulares"
+    "group": "Boias circulares",
+    "image": "imagens/Boia-Circular-Oceano-Fun—50cm.jpg"
   },
   {
     "id": "boia-circular-frozen",
@@ -1825,6 +1831,7 @@
     "unit": "unidade",
     "icon": "🏖️",
     "desc": "Boia circular Frozen. 56 cm; peso máximo 30 kg; indicada para maiores de 3 anos; composição: 100% PVC.",
-    "group": "Boias circulares"
+    "group": "Boias circulares",
+    "image": "imagens/Boia-Circular-Frozen—56cm.jpg"
   }
 ]
