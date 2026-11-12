@@ -1843,6 +1843,7 @@
     "price": 99,
     "unit": "unidade",
     "icon": "🪑",
-    "desc": "Cadeira de uso individual. Medidas: 53 cm × 72,5 cm. Peso máximo recomendado: 110 kg."
+    "desc": "Cadeira de uso individual. Medidas: 53 cm × 72,5 cm. Peso máximo recomendado: 110 kg.",
+    "image": "imagens/Cadeira-Mor-Alta-Preta.PNG"
   }
 ]
