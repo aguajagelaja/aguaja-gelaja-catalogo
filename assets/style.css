@@ -444,3 +444,34 @@ button,input,select{font:inherit}
  .catalog-controls .tab{transition:none}
  .catalog-controls .tab:hover{transform:none}
 }
+
+
+/* Navegação soft do catálogo — abas em múltiplas linhas, sem rolagem horizontal */
+.catalog-controls{display:grid;gap:16px;margin-bottom:20px}
+.catalog-controls .category-tabs-heading{display:flex;align-items:center;gap:9px;margin:0 0 10px;color:#426078;font-size:.7rem;font-weight:850;letter-spacing:.09em;text-transform:uppercase}
+.catalog-controls .category-tabs-heading:before{content:"";width:4px;height:14px;border-radius:8px;background:linear-gradient(180deg,#28b8d7,#1684c0)}
+.catalog-controls .category-tabs-help{display:none}
+.catalog-controls .tabs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;overflow:visible;overscroll-behavior:initial;scroll-snap-type:none;scrollbar-width:none;padding:0;margin:0}
+.catalog-controls .tabs::-webkit-scrollbar{display:none}
+.catalog-controls .tab,
+.catalog-controls .category-tab{flex:0 1 auto;min-height:39px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:8px 12px;border:1px solid #e4edf3;border-radius:999px;background:#f8fbfd;color:#587287;font-size:.75rem;font-weight:750;line-height:1.25;white-space:normal;box-shadow:none;transition:background .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease,transform .18s ease}
+.catalog-controls .tab:hover,
+.catalog-controls .category-tab:hover{transform:translateY(-1px);border-color:#b9dce9;background:#f0f9fc;color:#0879b9;box-shadow:0 3px 9px rgba(8,45,82,.045)}
+.catalog-controls .tab.active,
+.catalog-controls .category-tab.active{border-color:#c5e5f0;background:#eaf7fb;color:#086b9d;box-shadow:inset 0 0 0 1px rgba(7,134,206,.045)}
+.catalog-controls .tab-count{min-width:19px;height:19px;padding:0 5px;border-radius:999px;background:#eaf1f5;color:#6c8495;font-size:.64rem;font-weight:800}
+.catalog-controls .tab.active .tab-count,
+.catalog-controls .category-tab.active .tab-count{background:#d5edf6;color:#086b9d}
+.catalog-controls .tab:focus-visible{outline:3px solid rgba(7,134,206,.24);outline-offset:2px}
+.catalog-controls .tools{margin-top:0}
+@media(max-width:700px){
+ .catalog-controls{gap:13px}
+ .catalog-controls .category-tabs-heading{font-size:.65rem;margin-bottom:8px}
+ .catalog-controls .tabs{gap:7px;padding:0}
+ .catalog-controls .tab,
+ .catalog-controls .category-tab{min-height:36px;padding:7px 10px;font-size:.7rem}
+}
+@media(prefers-reduced-motion:reduce){
+ .catalog-controls .tab{transition:none}
+ .catalog-controls .tab:hover{transform:none}
+}
