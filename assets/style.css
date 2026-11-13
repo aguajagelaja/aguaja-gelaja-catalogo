@@ -535,3 +535,26 @@ button,input,select{font:inherit}
 @media(hover:hover) and (pointer:fine){.card:hover{transform:translateY(-8px) rotateX(2deg) rotateY(-1deg);border-color:#c5e1ef;box-shadow:0 5px 10px rgba(8,45,82,.035),0 22px 38px rgba(8,45,82,.12),0 38px 65px rgba(7,134,206,.07)}.card:hover .photo img{transform:scale(1.055) translateZ(7px);filter:saturate(1.06)}}
 @media(max-width:700px){.hero{padding-top:42px}.hero-logo{transform:perspective(900px) rotateY(-4deg) rotateX(2deg)}.card{border-radius:14px}}
 @media(prefers-reduced-motion:reduce){.hero-logo{animation:none;transform:none}.hero-visual:hover .hero-logo{transform:none}.card,.photo img,.button,.main-nav a:after,.contact-number-card,.wholesale-contact-card{transition:none}.card:hover,.contact-number-card:hover,.wholesale-contact-card:hover,.add:hover{transform:none}}
+
+
+/* Refinamento visual: ícones elegantes, profundidade discreta e movimento contido. */
+.category-tab{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:7px 11px;border-radius:12px;background:linear-gradient(180deg,#fff,#f8fbfe);box-shadow:0 2px 5px rgba(8,45,82,.035),inset 0 1px 0 rgba(255,255,255,.9);transition:background .18s ease,border-color .18s ease,color .18s ease,box-shadow .18s ease}
+.category-tab .category-icon{width:19px;height:19px;flex:0 0 19px;color:#1688bd;filter:drop-shadow(0 1px 1px rgba(8,45,82,.08))}
+.category-tab .tab-label{font-size:.76rem;letter-spacing:.005em}
+.category-tab .tab-count{min-width:21px;height:21px;display:inline-grid;place-items:center;padding:0 5px;border-radius:7px;background:#edf5fa;color:#6d879b;font-size:.65rem;font-weight:850}
+.category-tab:hover{transform:none;border-color:#9bcde2;background:#f4faff;box-shadow:0 4px 10px rgba(8,45,82,.07)}
+.category-tab.active{background:linear-gradient(145deg,#0b3a64,#082d52);border-color:#082d52;box-shadow:0 4px 11px rgba(8,45,82,.14),inset 0 1px 0 rgba(255,255,255,.12)}
+.category-tab.active .category-icon{color:#a9e8ff}
+.category-tab.active .tab-count{background:rgba(255,255,255,.14);color:#fff}
+.product-symbol{width:76px;height:76px;display:grid;place-items:center;border-radius:24px;background:linear-gradient(145deg,#fff,#eaf5fb);border:1px solid #dcecf4;color:#1688bd;box-shadow:0 8px 20px rgba(8,45,82,.08)}
+.product-symbol .category-icon{width:39px;height:39px;stroke-width:1.45}
+.search-wrap{border-radius:13px;background:linear-gradient(180deg,#fff,#f8fbfe);box-shadow:inset 0 1px 2px rgba(8,45,82,.025);transition:border-color .18s ease,box-shadow .18s ease}
+.search-wrap:focus-within{border-color:#59afd6;box-shadow:0 0 0 4px rgba(7,134,206,.09),0 5px 15px rgba(8,45,82,.05)}
+.card{transform:none!important;transition:box-shadow .2s ease,border-color .2s ease!important;box-shadow:0 2px 5px rgba(8,45,82,.025),0 9px 22px rgba(8,45,82,.055)}
+.card:hover{transform:none!important;border-color:#c9e1ed;box-shadow:0 5px 15px rgba(8,45,82,.075),0 14px 28px rgba(8,45,82,.055)}
+.photo img{transition:filter .2s ease!important}
+.card:hover .photo img{transform:none!important;filter:saturate(1.025)}
+.hero-logo{animation:none!important;transform:none!important;transition:box-shadow .25s ease!important}
+.hero-visual:hover .hero-logo{transform:none!important}
+@media(hover:hover) and (pointer:fine){.category-tab:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.category-tab,.search-wrap,.card,.photo img,.hero-logo{transition:none!important}}
