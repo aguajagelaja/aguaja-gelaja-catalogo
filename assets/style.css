@@ -571,3 +571,51 @@ button,input,select{font:inherit}
 /* Ajuste definitivo: imagens sempre contidas no quadro, sem esticar nem ultrapassar */
 .photo{display:grid!important;place-items:center!important;overflow:hidden!important;contain:layout paint!important;}
 .photo>img{display:block!important;width:auto!important;height:auto!important;max-width:100%!important;max-height:100%!important;min-width:0!important;min-height:0!important;object-fit:contain!important;object-position:center!important;margin:0!important;padding:0!important;transform:none!important;}
+
+
+/* Correção de enquadramento das imagens do catálogo */
+#products .photo{
+  position:relative!important;
+  display:flex!important;
+  flex:0 0 158px!important;
+  width:100%!important;
+  height:158px!important;
+  min-height:158px!important;
+  max-height:158px!important;
+  box-sizing:border-box!important;
+  align-items:center!important;
+  justify-content:center!important;
+  padding:14px!important;
+  overflow:hidden!important;
+  clip-path:inset(0 round 12px)!important;
+  contain:paint!important;
+  transform:none!important;
+}
+#products .photo>img{
+  position:static!important;
+  display:block!important;
+  flex:0 1 auto!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:0!important;
+  min-height:0!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  box-sizing:border-box!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  transform:none!important;
+}
+#products .card:hover .photo>img{transform:none!important}
+@media(max-width:480px){
+  #products .photo{
+    flex-basis:146px!important;
+    height:146px!important;
+    min-height:146px!important;
+    max-height:146px!important;
+    padding:12px!important;
+  }
+}
