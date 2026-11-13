@@ -619,3 +619,62 @@ button,input,select{font:inherit}
     padding:12px!important;
   }
 }
+
+
+/* Correção estrutural dos cartões: botão sempre dentro do próprio produto. */
+#products{
+  align-items:stretch!important;
+  grid-auto-rows:1fr!important;
+}
+#products>.card{
+  position:relative!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-self:stretch!important;
+  height:100%!important;
+  min-height:390px!important;
+  box-sizing:border-box!important;
+  overflow:visible!important;
+  transform:none!important;
+  transform-style:flat!important;
+  perspective:none!important;
+}
+#products>.card>*{
+  transform:none!important;
+}
+#products>.card>.photo{
+  flex:0 0 158px!important;
+  margin-bottom:13px!important;
+}
+#products>.card>.tag,
+#products>.card>h3,
+#products>.card>p,
+#products>.card>.price,
+#products>.card>.unit{
+  position:static!important;
+  flex-shrink:0!important;
+}
+#products>.card>p{
+  flex:1 0 auto!important;
+  min-height:0!important;
+  margin-bottom:11px!important;
+}
+#products>.card>.add{
+  position:static!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  align-self:stretch!important;
+  width:100%!important;
+  min-height:40px!important;
+  height:auto!important;
+  flex:0 0 auto!important;
+  margin:0!important;
+  transform:none!important;
+  white-space:normal!important;
+  line-height:1.3!important;
+  box-sizing:border-box!important;
+}
+@media(max-width:480px){
+  #products>.card{min-height:370px!important}
+}
