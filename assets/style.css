@@ -678,3 +678,12 @@ button,input,select{font:inherit}
 @media(max-width:480px){
   #products>.card{min-height:370px!important}
 }
+
+/* Crédito discreto do desenvolvimento no rodapé */
+.footer-credit{color:#89abc1;font-size:.68rem;white-space:nowrap}
+.footer-credit a{color:#b8d5e6;text-decoration:none;transition:color .18s ease}
+.footer-credit a:hover{color:#fff;text-decoration:underline}
+@media(max-width:700px){
+ .footer-bottom{flex-wrap:wrap;align-items:center}
+ .footer-credit{flex-basis:100%;text-align:center;padding-top:2px}
+}
