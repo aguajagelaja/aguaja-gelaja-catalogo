@@ -507,3 +507,31 @@ button,input,select{font:inherit}
  .contact-number-actions a{min-height:40px}
  .wholesale-contact-link{font-size:.68rem}
 }
+
+
+/* Camada visual 3D — profundidade e microinterações */
+.hero-grid{perspective:1100px}
+.hero-logo{transform:perspective(900px) rotateY(-7deg) rotateX(3deg) rotateZ(1deg);box-shadow:0 2px 5px rgba(8,45,82,.04),0 22px 42px rgba(8,45,82,.14),0 42px 75px rgba(7,134,206,.1);transition:transform .45s ease,box-shadow .45s ease;animation:ag-float 6s ease-in-out infinite}
+.hero-logo:after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:linear-gradient(135deg,rgba(255,255,255,.45),transparent 38%,transparent 72%,rgba(32,184,220,.08))}
+.hero-visual:hover .hero-logo{transform:perspective(900px) rotateY(0) rotateX(0) translateY(-7px);box-shadow:0 3px 7px rgba(8,45,82,.04),0 30px 58px rgba(8,45,82,.17),0 45px 85px rgba(7,134,206,.15)}
+.grid{perspective:1200px;perspective-origin:50% 20%}
+.card{border-radius:17px;transform-style:preserve-3d;transition:transform .32s cubic-bezier(.2,.75,.25,1),box-shadow .32s ease,border-color .32s ease;box-shadow:0 2px 5px rgba(8,45,82,.025),0 8px 18px rgba(8,45,82,.045)}
+.photo{position:relative;border-radius:13px;background:radial-gradient(circle at 50% 35%,#fff 0%,#f2f9fd 68%,#eaf5fb 100%);transform:translateZ(8px)}
+.photo img{transition:transform .45s ease,filter .35s ease}
+.card h3,.card p,.card .price,.card .unit,.card .add{transform:translateZ(3px)}
+.add{border-radius:11px;transition:transform .2s ease,box-shadow .2s ease}
+.add:hover{transform:translateY(-2px);box-shadow:0 7px 15px rgba(7,134,206,.12)}
+.catalog-workspace{box-shadow:0 2px 5px rgba(8,45,82,.025),0 18px 42px rgba(8,45,82,.06),0 34px 75px rgba(8,45,82,.035)}
+.site-header{box-shadow:0 5px 24px rgba(8,45,82,.045)}
+.main-nav a:after{content:"";position:absolute;left:12px;right:12px;bottom:5px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--blue-2));transform:scaleX(0);transform-origin:left;transition:transform .22s ease}
+.main-nav a:hover:after,.main-nav a:focus-visible:after{transform:scaleX(1)}
+.button{position:relative;isolation:isolate;overflow:hidden;border-radius:12px}
+.button:before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;background:linear-gradient(110deg,rgba(255,255,255,.25),transparent 55%);transition:opacity .22s ease}
+.button:hover:before{opacity:1}
+.wholesale-banner,.contact-panel{box-shadow:0 2px 4px rgba(8,45,82,.04),0 18px 38px rgba(8,45,82,.12),0 35px 70px rgba(8,45,82,.06)}
+.contact-number-card,.wholesale-contact-card{transition:transform .25s ease,border-color .25s ease}
+.contact-number-card:hover,.wholesale-contact-card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.34)}
+@keyframes ag-float{0%,100%{translate:0 0}50%{translate:0 -9px}}
+@media(hover:hover) and (pointer:fine){.card:hover{transform:translateY(-8px) rotateX(2deg) rotateY(-1deg);border-color:#c5e1ef;box-shadow:0 5px 10px rgba(8,45,82,.035),0 22px 38px rgba(8,45,82,.12),0 38px 65px rgba(7,134,206,.07)}.card:hover .photo img{transform:scale(1.055) translateZ(7px);filter:saturate(1.06)}}
+@media(max-width:700px){.hero{padding-top:42px}.hero-logo{transform:perspective(900px) rotateY(-4deg) rotateX(2deg)}.card{border-radius:14px}}
+@media(prefers-reduced-motion:reduce){.hero-logo{animation:none;transform:none}.hero-visual:hover .hero-logo{transform:none}.card,.photo img,.button,.main-nav a:after,.contact-number-card,.wholesale-contact-card{transition:none}.card:hover,.contact-number-card:hover,.wholesale-contact-card:hover,.add:hover{transform:none}}
