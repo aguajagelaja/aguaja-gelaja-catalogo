@@ -566,3 +566,8 @@ button,input,select{font:inherit}
 .card:hover .photo img{transform:none!important;filter:saturate(1.025)}
 .photo .product-symbol{flex:0 0 auto;max-width:100%;max-height:100%}
 @media(max-width:480px){.photo{height:146px;min-height:146px;max-height:146px;flex-basis:146px;padding:9px}.photo img{width:100%;height:100%;object-fit:contain}}
+
+
+/* Ajuste definitivo: imagens sempre contidas no quadro, sem esticar nem ultrapassar */
+.photo{display:grid!important;place-items:center!important;overflow:hidden!important;contain:layout paint!important;}
+.photo>img{display:block!important;width:auto!important;height:auto!important;max-width:100%!important;max-height:100%!important;min-width:0!important;min-height:0!important;object-fit:contain!important;object-position:center!important;margin:0!important;padding:0!important;transform:none!important;}
