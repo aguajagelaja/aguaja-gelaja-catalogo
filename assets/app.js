@@ -1,3 +1,17 @@
+/* Oculta a tela de carregamento somente depois que a página terminar de carregar. */
+(() => {
+  const loader = document.getElementById("siteLoader");
+  if (!loader) return;
+  const finishLoading = () => {
+    window.setTimeout(() => {
+      loader.classList.add("is-hidden");
+      window.setTimeout(() => loader.remove(), 400);
+    }, 450);
+  };
+  if (document.readyState === "complete") finishLoading();
+  else window.addEventListener("load", finishLoading, { once: true });
+})();
+
 const money=n=>n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});let allProducts=[],activeCategory="Todos";const bag={};const $=id=>document.getElementById(id);
 const unitPrice=(p,qty)=>p.price;
 const esc=value=>String(value??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;");
