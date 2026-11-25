@@ -1549,7 +1549,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "3 L"
+    "group": "3 L",
+    "image": "imagens/Caixa-de-isopor—3L.jpeg"
   },
   {
     "id": "isopor-5l",
@@ -1559,7 +1560,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "5 L"
+    "group": "5 L",
+    "image": "imagens/Caixa-de-isopor—5L.png"
   },
   {
     "id": "isopor-8l",
@@ -1569,7 +1571,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "8 L"
+    "group": "8 L",
+    "image": "imagens/Caixa-de-isopor—8L.jpeg"
   },
   {
     "id": "isopor-13l",
@@ -1579,7 +1582,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "13 L"
+    "group": "13 L",
+    "image": "imagens/Caixa-de-isopor—13L.jpeg"
   },
   {
     "id": "isopor-18l",
@@ -1589,7 +1593,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "18 L"
+    "group": "18 L",
+    "image": "imagens/Caixa-de-isopor—18L.png"
   },
   {
     "id": "isopor-21l",
@@ -1599,7 +1604,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "21 L"
+    "group": "21 L",
+    "image": "imagens/Caixa-de-isopor—21L.jpeg"
   },
   {
     "id": "isopor-28l",
@@ -1609,7 +1615,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "28 L"
+    "group": "28 L",
+    "image": "imagens/Caixa-de-isopor—28L.jpeg"
   },
   {
     "id": "isopor-30l",
@@ -1619,7 +1626,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "30 L"
+    "group": "30 L",
+    "image": "imagens/Caixa-de-isopor—30L.png"
   },
   {
     "id": "isopor-35l",
@@ -1629,7 +1637,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "35 L"
+    "group": "35 L",
+    "image": "imagens/Caixa-de-isopor—35L.png"
   },
   {
     "id": "isopor-40l",
@@ -1639,7 +1648,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor de 40 litros.",
-    "group": "40 L"
+    "group": "40 L",
+    "image": "imagens/Caixa-de-isopor-40L.png"
   },
   {
     "id": "isopor-45l",
@@ -1649,7 +1659,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "45 L"
+    "group": "45 L",
+    "image": "imagens/Caixa-de-isopor—45L.jpeg"
   },
   {
     "id": "isopor-50l",
@@ -1659,7 +1670,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "50 L"
+    "group": "50 L",
+    "image": "imagens/Caixa-de-isopor—50L.jpeg"
   },
   {
     "id": "isopor-60l",
@@ -1669,7 +1681,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "60 L"
+    "group": "60 L",
+    "image": "imagens/Caixa-de-isopor—60L.jpeg"
   },
   {
     "id": "isopor-80l",
@@ -1679,7 +1692,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "80 L"
+    "group": "80 L",
+    "image": "imagens/Caixa-de-isopor—80L.png"
   },
   {
     "id": "isopor-100l",
@@ -1689,7 +1703,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "100 L"
+    "group": "100 L",
+    "image": "imagens/Caixa-de-isopor—100L.png"
   },
   {
     "id": "isopor-120l",
@@ -1699,7 +1714,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor de 120 litros.",
-    "group": "120 L"
+    "group": "120 L",
+    "image": "imagens/Caixa-de-isopor—120L.jpeg"
   },
   {
     "id": "isopor-165l",
@@ -1709,7 +1725,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "165 L"
+    "group": "165 L",
+    "image": "imagens/Caixa-de-isopor —165L.jpeg"
   },
   {
     "id": "isopor-170l",
@@ -1719,7 +1736,8 @@
     "unit": "unidade",
     "icon": "🧊",
     "desc": "Caixa de isopor.",
-    "group": "170 L"
+    "group": "170 L",
+    "image": "imagens/Caixa-de-isopor—170L.jpeg"
   },
   {
     "id": "acai-ice-mix-2l",
