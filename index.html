@@ -81,7 +81,7 @@
     </a>
     <nav class="main-nav" aria-label="Navegação principal">
       <a href="#whatsapp">WhatsApp</a>
-      <a href="#catalogo">Catálogo</a>
+      <a href="#catalogo" aria-controls="catalogo" aria-expanded="false">Catálogo</a>
       <a href="#instagram">Instagram</a>
       <a href="#localizacao">Localização</a>
       <a href="#facebook">Facebook</a>
@@ -99,7 +99,7 @@
         <h1>Água e gelo em Bataguassu: <span>peça com praticidade na Águajá Gelajá.</span></h1>
         <p>Encontre água mineral, galões, fardos e diferentes opções de gelo para sua casa ou comércio. Consulte nosso catálogo e fale com a equipe para fazer seu pedido e verificar a disponibilidade de entrega em Bataguassu/MS.</p>
         <div class="actions">
-          <a class="button" href="#catalogo" id="explorarCatalogo" aria-expanded="false">Explorar catálogo <span aria-hidden="true">→</span></a>
+          <a class="button" href="#catalogo" id="explorarCatalogo" aria-controls="catalogo" aria-expanded="false">Explorar catálogo <span aria-hidden="true">→</span></a>
           <a class="button button-outline" href="#whatsapp">Falar com a loja</a>
         </div>
         <div class="hero-proof">
@@ -128,7 +128,7 @@
         <p>Para comprar gelo em Bataguassu, consulte as opções em cubos, gelo especial e gelo triturado, em diferentes tamanhos. Para comprar água, confira as opções de galões e fardos disponíveis no catálogo.</p>
         <p>Precisa receber seu pedido? Entre em contato para consultar a disponibilidade, a região atendida e as condições de entrega. A equipe confirma os detalhes no atendimento.</p>
         <div class="actions">
-          <a class="button" href="#catalogo" id="explorarCatalogoSeo">Ver catálogo de água e gelo <span aria-hidden="true">→</span></a>
+          <a class="button" href="#catalogo" id="explorarCatalogoSeo" aria-controls="catalogo" aria-expanded="false">Ver catálogo de água e gelo <span aria-hidden="true">→</span></a>
           <a class="button button-outline" href="https://wa.me/5567981430628?text=Ol%C3%A1!%20Quero%20consultar%20a%20compra%20e%20entrega%20de%20%C3%A1gua%20ou%20gelo%20em%20Bataguassu." target="_blank" rel="noopener">Consultar pelo WhatsApp</a>
         </div>
       </div>
@@ -198,7 +198,7 @@
           <h2>Nosso catálogo</h2>
           <p>Confira todos os produtos em um só lugar, use a busca para encontrar o que procura e monte seu pedido em poucos passos.</p>
         </div>
-        <button class="button cart-open-button" id="openCart"><span>▣</span> Meu pedido <span class="count" id="count">0</span></button>
+        <div class="catalog-intro-actions"><button class="button button-outline catalog-close-button" type="button" data-catalog-close hidden>Fechar catálogo <span aria-hidden="true">×</span></button><button class="button cart-open-button" id="openCart"><span>▣</span> Meu pedido <span class="count" id="count">0</span></button></div>
       </div>
       <div class="catalog-workspace">
         <div class="catalog-controls">
