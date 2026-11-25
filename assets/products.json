@@ -1632,6 +1632,16 @@
     "group": "35 L"
   },
   {
+    "id": "isopor-40l",
+    "name": "Caixa de isopor — 40 L",
+    "category": "Caixas de isopor",
+    "price": 62,
+    "unit": "unidade",
+    "icon": "🧊",
+    "desc": "Caixa de isopor de 40 litros.",
+    "group": "40 L"
+  },
+  {
     "id": "isopor-45l",
     "name": "Caixa de isopor — 45 L",
     "category": "Caixas de isopor",
