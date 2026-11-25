@@ -38,31 +38,54 @@ $("search").addEventListener("input",renderProducts);$("sort").addEventListener(
  $("send").addEventListener("click",()=>sendOrder($("send").dataset.phone));
  $("sendAlt").addEventListener("click",()=>sendOrder($("sendAlt").dataset.phone));
 
-/* Controle de abertura e fechamento do catálogo. */
+/* Controle unificado de abertura e fechamento do catálogo. */
 (() => {
   const catalog = document.getElementById("catalogo");
-  const explore = document.getElementById("explorarCatalogo");
   if (!catalog) return;
+
+  // Todo link que leva ao catálogo funciona como alternador de abrir/fechar.
+  const catalogTriggers = [...document.querySelectorAll('a[href="#catalogo"]')];
+  const closeButtons = [...document.querySelectorAll("[data-catalog-close]")];
+  const home = document.getElementById("inicio");
+  const pageUrl = () => window.location.pathname + window.location.search;
+
   const syncCatalog = () => {
-    catalog.hidden = window.location.hash !== "#catalogo";
-    if (explore) explore.setAttribute("aria-expanded", String(!catalog.hidden));
+    const isOpen = window.location.hash === "#catalogo";
+    catalog.hidden = !isOpen;
+    catalogTriggers.forEach(trigger => {
+      trigger.setAttribute("aria-controls", "catalogo");
+      trigger.setAttribute("aria-expanded", String(isOpen));
+    });
+    closeButtons.forEach(button => {
+      button.hidden = !isOpen;
+    });
   };
+
+  const openCatalog = () => {
+    history.replaceState(null, "", pageUrl() + "#catalogo");
+    syncCatalog();
+    catalog.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const closeCatalog = () => {
+    history.replaceState(null, "", pageUrl());
+    syncCatalog();
+    home?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  catalogTriggers.forEach(trigger => {
+    trigger.addEventListener("click", event => {
+      event.preventDefault();
+      if (catalog.hidden) openCatalog();
+      else closeCatalog();
+    });
+  });
+
+  closeButtons.forEach(button => {
+    button.addEventListener("click", closeCatalog);
+  });
+
   syncCatalog();
   window.addEventListener("hashchange", syncCatalog);
-  if (explore) {
-    explore.addEventListener("click", (event) => {
-      event.preventDefault();
-      if (catalog.hidden) {
-        catalog.hidden = false;
-        explore.setAttribute("aria-expanded", "true");
-        window.location.hash = "catalogo";
-        catalog.scrollIntoView({ behavior: "smooth", block: "start" });
-      } else {
-        catalog.hidden = true;
-        explore.setAttribute("aria-expanded", "false");
-        history.replaceState(null, "", window.location.pathname + window.location.search);
-        document.getElementById("inicio")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
-  }
+  window.addEventListener("popstate", syncCatalog);
 })();
