@@ -1692,6 +1692,16 @@
     "group": "100 L"
   },
   {
+    "id": "isopor-120l",
+    "name": "Caixa de isopor — 120 L",
+    "category": "Caixas de isopor",
+    "price": 198,
+    "unit": "unidade",
+    "icon": "🧊",
+    "desc": "Caixa de isopor de 120 litros.",
+    "group": "120 L"
+  },
+  {
     "id": "isopor-165l",
     "name": "Caixa de isopor — 165 L",
     "category": "Caixas de isopor",
